@@ -1,5 +1,8 @@
 package com.carjo.login;
 
+import com.carjo.client.forms.client_forget;
+import com.carjo.client.forms.client_home;
+import com.carjo.client.forms.client_signup;
 import com.cn2.ui.cn1Display;
 import com.codename1.components.ToastBar;
 import com.codename1.ui.Display;
@@ -25,7 +28,7 @@ public class login_form extends BaseLogin {
         installFixItems(res);
     }
 
-////////////////////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
+//////////////////////////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
     protected com.codename1.ui.Container gui_Container = new com.codename1.ui.Container(new com.codename1.ui.layouts.LayeredLayout());
     protected com.codename1.ui.Label gui_bg_img = new com.codename1.ui.Label();
     protected com.codename1.ui.Label gui_bg_img_gray = new com.codename1.ui.Label();
@@ -145,7 +148,7 @@ public class login_form extends BaseLogin {
         gui_Label_1.setInlineAllStyles("font:3.0mm; fgColor:ffffff; alignment:right; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;");
         gui_Label_1.setName("Label_1");
         gui_Label_2.setPreferredSizeStr("20.10582mm 6.6137567mm");
-        gui_Label_2.setText(" Yalla Gym");
+        gui_Label_2.setText(" Car Jo");
                 gui_Label_2.setInlineStylesTheme(resourceObjectInstance);
         gui_Label_2.setInlineAllStyles("font:4.0mm; fgColor:ffffff; bgImage:; alignment:left; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;");
         gui_Label_2.setName("Label_2");
@@ -182,17 +185,16 @@ public class login_form extends BaseLogin {
     }// </editor-fold>
 
 //-- DON'T EDIT ABOVE THIS LINE!!!  //-- DON'T EDIT ABOVE THIS LINE!!! 
-
     private void installFixItems(Resources res) {
-//        getToolbar().setHidden(true);
-//        setScrollVisible(false);
-//        gui_lbl_logo.setPreferredH(gui_lbl_logo.getPreferredW());
-//        user = createTextField("Username or Phone", res.getImage("mail_ic.png").scaled(56, 56));
-//        pass = createTextField("Password", res.getImage("lock_ic.png").scaled(56, 56));
-//        pass.setConstraint(TextField.PASSWORD);
-//        gui_con_user.add(CENTER, user);
-//        gui_con_pass.add(CENTER, pass);
-//        gui_Container.setPreferredH(cn1Display.getHeight());
+        getToolbar().setHidden(true);
+        setScrollVisible(false);
+        gui_lbl_logo.setPreferredH(gui_lbl_logo.getPreferredW());
+        user = createTextField("Username or Phone", res.getImage("mail_ic.png").scaled(56, 56));
+        pass = createTextField("Password", res.getImage("lock_ic.png").scaled(56, 56));
+        pass.setConstraint(TextField.PASSWORD);
+        gui_con_user.add(CENTER, user);
+        gui_con_pass.add(CENTER, pass);
+        gui_Container.setPreferredH(cn1Display.getHeight());
     }
 
     public TextField createTextField(String hint, Image hint_icon) {
@@ -206,9 +208,6 @@ public class login_form extends BaseLogin {
         return tf;
     }
 
-//    public void onSpan_ButtonActionEvent(com.codename1.ui.events.ActionEvent ev) {
-//        Display.getInstance().execute("https://openskyjo.github.io/Terms-Conditions/");
-//    }
     public void onbtn_loginActionEvent(com.codename1.ui.events.ActionEvent ev) {
 //        String userStr = formatUser(user.getText().toLowerCase());
 //        String passStr = pass.getText();
@@ -226,16 +225,15 @@ public class login_form extends BaseLogin {
 //
 //            }
 //        }
+        new client_home(res).show();
     }
 
     public void onbtn_sign_upActionEvent(com.codename1.ui.events.ActionEvent ev) {
-//        new signup_username(res, this).show();
+        new client_signup(res, this).show();
     }
 
     public void onbtn_forget_passActionEvent(com.codename1.ui.events.ActionEvent ev) {
-//        new activition_form_1(res, this, formatUser(user.getText())).show();
+        new client_forget(res, this, formatUser(user.getText())).show();
     }
-
-   
 
 }

@@ -1,5 +1,6 @@
 package com.carjo.client.forms;
 
+import com.carjo.client.layouts.logo;
 import com.cn2.lang.cn1Math;
 import com.cn2.ui.cn1Display;
 import com.cn2.ui.cn1Icons;
@@ -76,7 +77,7 @@ import java.util.Map;
         this.setScrollVisible(false);
 //        System.out.println("cn1Display.getHeight()/9:" + cn1Display.getHeight() / 9);
         getToolbar().setPreferredH(Math.max(150, cn1Display.getHeight() / 9));
-//        this.getToolbar().add(CENTER, new logo(res));
+        this.getToolbar().add(CENTER, new logo(res));
     }
 
     public void installBackIcon(Form backform) {

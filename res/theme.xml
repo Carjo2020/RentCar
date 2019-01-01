@@ -392,6 +392,8 @@
         <font key="FloatingActionButtonClose.sel#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="2" actualSize="12.0" />
         <val key="FloatingActionButtonClose.sel#transparency" value="255" />
         <val key="FloatingActionButtonClose.transparency" value="255" />
+        <val key="Form.bgColor" value="ffffff" />
+        <val key="Form.transparency" value="255" />
         <val key="Gray_Con.bgColor" value="ebebeb" />
         <border key="Gray_Con.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="7.0" bezierCorners="false" />
         <val key="Gray_Con.marUnit" value="2,2,2,2" />
@@ -763,8 +765,10 @@
         <val key="Title.textDecoration" value="16" />
         <val key="TitleArea.align" value="4" />
         <val key="TitleArea.bgColor" value="ffffff" />
+        <gradient key="TitleArea.bgGradient" color1="10066431" color2="16764057" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="TitleArea.bgType" value="7" />
         <border key="TitleArea.border" type="empty" />
-        <val key="TitleArea.fgColor" value="a3cc2e" />
+        <val key="TitleArea.fgColor" value="ffffff" />
         <font key="TitleArea.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="4.0" />
         <val key="TitleArea.transparency" value="255" />
         <val key="TitleCommand.dis#fgColor" value="5e9007" />

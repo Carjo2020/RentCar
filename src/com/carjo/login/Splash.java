@@ -36,14 +36,14 @@ public class Splash extends BaseLogin {
         gui_logo.setPreferredH(gui_logo.getPreferredW());
         new UITimer(() -> {
             if (isAndroid()) {
-                boolean checkUpdate = api.checkUpdate();
-                if (!checkUpdate) {
+//                boolean checkUpdate = api.checkUpdate();
+//                if (!checkUpdate) {
                     run();
-                } else {
-                    new dlg_1_option(res, "There is a new update", "you need to update app before open, click on \"ok\" to open in google play.", "Ok", e -> {
-                        CN.execute("https://play.google.com/store/apps/details?id=com.yallagym");
-                    }, true).show();
-                }
+//                } else {
+//                    new dlg_1_option(res, "There is a new update", "you need to update app before open, click on \"ok\" to open in google play.", "Ok", e -> {
+//                        CN.execute("https://play.google.com/store/apps/details?id=com.yallagym");
+//                    }, true).show();
+//                }
             } else {
                 run();
             }
@@ -177,16 +177,16 @@ public class Splash extends BaseLogin {
     }
 
     private void run() {
-        String username = Preferences.get("username", "null");
-        String password = Preferences.get("password", "null");
-        if (!username.equals("null") && !password.equals("null")) {
-            if (!username.endsWith("_yalla")) {
-                checkUserLogin(res, username, password);
-            } else {
-                checkGymLogin(res, username, password);
-            }
-        } else {
+//        String username = Preferences.get("username", "null");
+//        String password = Preferences.get("password", "null");
+//        if (!username.equals("null") && !password.equals("null")) {
+//            if (!username.endsWith("_yalla")) {
+//                checkUserLogin(res, username, password);
+//            } else {
+//                checkGymLogin(res, username, password);
+//            }
+//        } else {
             new login_form(res).show();
-        }
+//        }
     }
 }

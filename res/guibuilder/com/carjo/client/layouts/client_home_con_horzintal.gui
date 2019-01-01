@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" name="client_home_con_horzintal">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="30.568668" layeredLayoutPreferredHeightMM="36.9746"  styles="border:roundRect stroke(1.0px ececec) -top-left -top-right +bottom-left +bottom-right 0.5mm;" preferredSize="30.568668mm 36.9746mm" name="Container">
+    <layoutConstraint insets="auto auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Label" text="" preferredSize="30.568668mm 20.56642mm" name="lbl_img">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" text="Compact" preferredSize="29.66959mm 7.4173975mm" name="lbl_type">
+      <layoutConstraint insets="1.0mm 0.0mm auto 0.0mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" text="473 Jd" preferredSize="29.66959mm 7.9793215mm" name="lbl_price">
+      <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
+    </component>
+  </component>
+</component>

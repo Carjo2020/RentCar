@@ -19,7 +19,7 @@
         <component type="Label" text="Login to continue" styles="font:3.0mm; fgColor:ffffff; alignment:right; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;" preferredSize="24.603174mm 6.878307mm" name="Label_1">
           <layoutConstraint insets="0.0mm auto auto 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
         </component>
-        <component type="Label" text=" Yalla Gym" styles="font:4.0mm; fgColor:ffffff; bgImage:; alignment:left; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;" preferredSize="20.10582mm 6.6137567mm" name="Label_2">
+        <component type="Label" text=" Car Jo" styles="font:4.0mm; fgColor:ffffff; bgImage:; alignment:left; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;" preferredSize="20.10582mm 6.6137567mm" name="Label_2">
           <layoutConstraint insets="0.2645502mm 0.0mm auto 0.0mm" referenceComponents="-1 -1 -1 0 " referencePositions="0.0 0.0 0.0 1.0" />
         </component>
       </component>

@@ -28,7 +28,7 @@ public class login_form extends BaseLogin {
         installFixItems(res);
     }
 
-//////////////////////////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
+//////////////////////////////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
     protected com.codename1.ui.Container gui_Container = new com.codename1.ui.Container(new com.codename1.ui.layouts.LayeredLayout());
     protected com.codename1.ui.Label gui_bg_img = new com.codename1.ui.Label();
     protected com.codename1.ui.Label gui_bg_img_gray = new com.codename1.ui.Label();
@@ -123,15 +123,15 @@ public class login_form extends BaseLogin {
         gui_btn_forget_pass.setName("btn_forget_pass");
         gui_btn_login.setPreferredSizeStr("57.67196mm 8.730159mm");
         gui_btn_login.setText("Log In");
-        gui_btn_login.setUIID("login_btn");
+        gui_btn_login.setUIID("button1");
                 gui_btn_login.setInlineStylesTheme(resourceObjectInstance);
-        gui_btn_login.setInlineAllStyles("fgColor:ffffff; bgImage:btn_green.png;");
+        gui_btn_login.setInlineAllStyles("bgImage:;");
         gui_btn_login.setName("btn_login");
         gui_btn_sign_up.setPreferredSizeStr("29.89418mm 9.259259mm");
         gui_btn_sign_up.setText("Sign Up");
-        gui_btn_sign_up.setUIID("login_btn");
+        gui_btn_sign_up.setUIID("button2");
                 gui_btn_sign_up.setInlineStylesTheme(resourceObjectInstance);
-        gui_btn_sign_up.setInlineAllStyles("fgColor:0; bgImage:Book_Now_Button.png;");
+        gui_btn_sign_up.setInlineAllStyles("bgImage:;");
         gui_btn_sign_up.setName("btn_sign_up");
         gui_con_pass.setPreferredSizeStr("81.74603mm 8.730159mm");
         gui_con_pass.setUIID("con_input");

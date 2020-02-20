@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <resource majorVersion="1" minorVersion="10" useXmlUI="false">
+    <image name="3.jpg"  />
     <image name="accepted_order_green_ic.png"  />
     <image name="accepted_order_ic.png"  />
     <image name="background-image.png"  />
@@ -8,6 +9,8 @@
     <image name="Book_Now_Button.png"  />
     <image name="btn_green.png"  />
     <image name="btn_red.png"  />
+    <image name="button1.png"  />
+    <image name="button2.png"  />
     <image name="camera_gradient_ic.png"  />
     <image name="cancel_ic.png"  />
     <image name="circle_correct_ic.png"  />
@@ -38,6 +41,7 @@
     <image name="lock_ic.png"  />
     <image name="Logo---Crop.png"  />
     <image name="logo.png"  />
+    <image name="logo_yellow.png"  />
     <image name="mail_ic.png"  />
     <image name="Map.png"  />
     <image name="message_ic.png"  />
@@ -131,6 +135,13 @@
         <border key="AutoCompletePopup.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="2.0" shadowOpacity="30" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
         <val key="AutoCompletePopup.padUnit" value="2,2,2,2" />
         <val key="AutoCompletePopup.padding" value="2.0,2.0,2.0,2.0" />
+        <val key="CarJo.bgColor" value="ececec" />
+        <val key="CarJo.bgImage" value="logo_yellow.png" />
+        <val key="CarJo.bgType" value="1" />
+        <border key="CarJo.border" type="empty" />
+        <val key="CarJo.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="CarJo.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="CarJo.transparency" value="255" />
         <val key="CheckBox.dis#fgColor" value="0" />
         <font key="CheckBox.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
         <val key="CheckBox.dis#padUnit" value="2,0,2,0" />
@@ -147,6 +158,13 @@
         <font key="CheckBox.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
         <val key="CheckBox.sel#padUnit" value="2,0,2,0" />
         <val key="CheckBox.sel#padding" value="1.5,1.5,4.0,0.0" />
+        <val key="CheckBoxTypesCar.bgColor" value="ffffff" />
+        <border key="CheckBoxTypesCar.border" type="line" millimeters="false" thickness="1.0" color="15527148" />
+        <val key="CheckBoxTypesCar.fgColor" value="cccccc" />
+        <font key="CheckBoxTypesCar.font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.0" />
+        <val key="CheckBoxTypesCar.padUnit" value="0,2,0,2" />
+        <val key="CheckBoxTypesCar.padding" value="0.0,0.0,1.0,1.0" />
+        <val key="CheckBoxTypesCar.transparency" value="255" />
         <val key="ComboBox.align" value="4" />
         <val key="ComboBox.bgColor" value="0" />
         <border key="ComboBox.border" type="line" millimeters="false" thickness="3.0" color="16777215" />
@@ -607,7 +625,7 @@
         <border key="SideCommand.border" type="underline"  millimeters="false" thickness="3.0" color="15527148" />
         <val key="SideCommand.dis#bgColor" value="ffffff" />
         <border key="SideCommand.dis#border" type="underline"  millimeters="false" thickness="3.0" color="15527148" />
-        <val key="SideCommand.dis#fgColor" value="a5cd34" />
+        <val key="SideCommand.dis#fgColor" value="062944" />
         <font key="SideCommand.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainBlack" family="native:MainBlack" sizeSettings="3" actualSize="3.0" />
         <val key="SideCommand.dis#marUnit" value="0,2,0,2" />
         <val key="SideCommand.dis#margin" value="0.0,0.0,1.0,1.0" />
@@ -615,7 +633,7 @@
         <val key="SideCommand.dis#padding" value="4.0,4.0,2.0,0.0" />
         <val key="SideCommand.dis#textDecoration" value="16" />
         <val key="SideCommand.dis#transparency" value="255" />
-        <val key="SideCommand.fgColor" value="a5cd34" />
+        <val key="SideCommand.fgColor" value="062944" />
         <font key="SideCommand.font" type="ttf" face="0" style="0" size="0" name="native:MainBlack" family="native:MainBlack" sizeSettings="3" actualSize="3.0" />
         <val key="SideCommand.marUnit" value="0,2,0,2" />
         <val key="SideCommand.margin" value="0.0,0.0,1.0,1.0" />
@@ -623,7 +641,7 @@
         <val key="SideCommand.padding" value="4.0,4.0,2.0,0.0" />
         <val key="SideCommand.press#bgColor" value="ffffff" />
         <border key="SideCommand.press#border" type="underline"  millimeters="false" thickness="3.0" color="15527148" />
-        <val key="SideCommand.press#fgColor" value="a5cd34" />
+        <val key="SideCommand.press#fgColor" value="062944" />
         <font key="SideCommand.press#font" type="ttf" face="0" style="0" size="0" name="native:MainBlack" family="native:MainBlack" sizeSettings="3" actualSize="3.0" />
         <val key="SideCommand.press#marUnit" value="0,2,0,2" />
         <val key="SideCommand.press#margin" value="0.0,0.0,1.0,1.0" />
@@ -633,7 +651,7 @@
         <val key="SideCommand.press#transparency" value="255" />
         <val key="SideCommand.sel#bgColor" value="ffffff" />
         <border key="SideCommand.sel#border" type="underline"  millimeters="false" thickness="3.0" color="15527148" />
-        <val key="SideCommand.sel#fgColor" value="a5cd34" />
+        <val key="SideCommand.sel#fgColor" value="062944" />
         <font key="SideCommand.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainBlack" family="native:MainBlack" sizeSettings="3" actualSize="3.0" />
         <val key="SideCommand.sel#marUnit" value="0,2,0,2" />
         <val key="SideCommand.sel#margin" value="0.0,0.0,1.0,1.0" />
@@ -643,7 +661,7 @@
         <val key="SideCommand.sel#transparency" value="255" />
         <val key="SideCommand.textDecoration" value="16" />
         <val key="SideCommand.transparency" value="255" />
-        <val key="SideNavigationPanel.bgColor" value="ffffff" />
+        <val key="SideNavigationPanel.bgColor" value="021522" />
         <val key="Splash_Txt.align" value="4" />
         <val key="Splash_Txt.fgColor" value="ffffff" />
         <font key="Splash_Txt.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="5.0" />
@@ -764,17 +782,15 @@
         <font key="Title.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="4.0" />
         <val key="Title.textDecoration" value="16" />
         <val key="TitleArea.align" value="4" />
-        <val key="TitleArea.bgColor" value="ffffff" />
-        <gradient key="TitleArea.bgGradient" color1="10066431" color2="16764057" posX="0.5" posY="0.5" radius="1.0" />
-        <val key="TitleArea.bgType" value="7" />
+        <val key="TitleArea.bgColor" value="232f3e" />
         <border key="TitleArea.border" type="empty" />
         <val key="TitleArea.fgColor" value="ffffff" />
         <font key="TitleArea.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="4.0" />
         <val key="TitleArea.transparency" value="255" />
-        <val key="TitleCommand.dis#fgColor" value="5e9007" />
-        <val key="TitleCommand.fgColor" value="5e9007" />
-        <val key="TitleCommand.press#fgColor" value="5e9007" />
-        <val key="TitleCommand.sel#fgColor" value="5e9007" />
+        <val key="TitleCommand.dis#fgColor" value="febd69" />
+        <val key="TitleCommand.fgColor" value="febd69" />
+        <val key="TitleCommand.press#fgColor" value="febd69" />
+        <val key="TitleCommand.sel#fgColor" value="febd69" />
         <val key="ToastBar.align" value="4" />
         <val key="ToastBar.bgColor" value="242e1c" />
         <border key="ToastBar.border" type="round" roundBorderColor="2371100" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
@@ -825,7 +841,7 @@
         <val key="White_Con.padUnit" value="2,2,2,2" />
         <val key="White_Con.padding" value="1.0,1.0,1.0,1.0" />
         <val key="White_Con.transparency" value="255" />
-        <val key="YallaGym.bgImage" value="Logo---Crop.png" />
+        <val key="YallaGym.bgImage" value="logo_yellow.png" />
         <val key="YallaGym.bgType" value="1" />
         <border key="YallaGym.border" type="empty" />
         <val key="YallaGym.margin" value="0.0,0.0,0.0,0.0" />
@@ -921,10 +937,10 @@
         <val key="btn_get_red.sel#marUnit" value="2,2,2,2" />
         <val key="btn_get_red.sel#margin" value="1.0,1.0,0.0,0.0" />
         <val key="btn_get_started.align" value="4" />
-        <val key="btn_get_started.bgImage" value="btn_green.png" />
+        <val key="btn_get_started.bgImage" value="button1.png" />
         <val key="btn_get_started.bgType" value="1" />
         <val key="btn_get_started.dis#align" value="4" />
-        <val key="btn_get_started.dis#bgImage" value="btn_green.png" />
+        <val key="btn_get_started.dis#bgImage" value="button1.png" />
         <val key="btn_get_started.dis#bgType" value="1" />
         <val key="btn_get_started.dis#fgColor" value="ffffff" />
         <font key="btn_get_started.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
@@ -935,24 +951,24 @@
         <val key="btn_get_started.marUnit" value="2,2,2,2" />
         <val key="btn_get_started.margin" value="1.0,1.0,0.0,0.0" />
         <val key="btn_get_started.press#align" value="4" />
-        <val key="btn_get_started.press#bgImage" value="btn_green.png" />
+        <val key="btn_get_started.press#bgImage" value="button1.png" />
         <val key="btn_get_started.press#bgType" value="1" />
         <val key="btn_get_started.press#fgColor" value="ffffff" />
         <font key="btn_get_started.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
         <val key="btn_get_started.press#marUnit" value="2,2,2,2" />
         <val key="btn_get_started.press#margin" value="1.0,1.0,0.0,0.0" />
         <val key="btn_get_started.sel#align" value="4" />
-        <val key="btn_get_started.sel#bgImage" value="btn_green.png" />
+        <val key="btn_get_started.sel#bgImage" value="button1.png" />
         <val key="btn_get_started.sel#bgType" value="1" />
         <val key="btn_get_started.sel#fgColor" value="ffffff" />
         <font key="btn_get_started.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
         <val key="btn_get_started.sel#marUnit" value="2,2,2,2" />
         <val key="btn_get_started.sel#margin" value="1.0,1.0,0.0,0.0" />
         <val key="btn_get_yellow.align" value="4" />
-        <val key="btn_get_yellow.bgImage" value="Book_Now_Button.png" />
+        <val key="btn_get_yellow.bgImage" value="button2.png" />
         <val key="btn_get_yellow.bgType" value="1" />
         <val key="btn_get_yellow.dis#align" value="4" />
-        <val key="btn_get_yellow.dis#bgImage" value="Book_Now_Button.png" />
+        <val key="btn_get_yellow.dis#bgImage" value="button2.png" />
         <val key="btn_get_yellow.dis#bgType" value="1" />
         <val key="btn_get_yellow.dis#fgColor" value="ffffff" />
         <font key="btn_get_yellow.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
@@ -963,14 +979,14 @@
         <val key="btn_get_yellow.marUnit" value="2,2,2,2" />
         <val key="btn_get_yellow.margin" value="1.0,1.0,0.0,0.0" />
         <val key="btn_get_yellow.press#align" value="4" />
-        <val key="btn_get_yellow.press#bgImage" value="Book_Now_Button.png" />
+        <val key="btn_get_yellow.press#bgImage" value="button2.png" />
         <val key="btn_get_yellow.press#bgType" value="1" />
         <val key="btn_get_yellow.press#fgColor" value="ffffff" />
         <font key="btn_get_yellow.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
         <val key="btn_get_yellow.press#marUnit" value="2,2,2,2" />
         <val key="btn_get_yellow.press#margin" value="1.0,1.0,0.0,0.0" />
         <val key="btn_get_yellow.sel#align" value="4" />
-        <val key="btn_get_yellow.sel#bgImage" value="Book_Now_Button.png" />
+        <val key="btn_get_yellow.sel#bgImage" value="button2.png" />
         <val key="btn_get_yellow.sel#bgType" value="1" />
         <val key="btn_get_yellow.sel#fgColor" value="ffffff" />
         <font key="btn_get_yellow.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
@@ -1060,6 +1076,62 @@
         <font key="btn_select.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="4.0" />
         <val key="btn_select.sel#transparency" value="255" />
         <val key="btn_select.transparency" value="255" />
+        <val key="button1.align" value="4" />
+        <val key="button1.bgImage" value="button1.png" />
+        <val key="button1.bgType" value="1" />
+        <val key="button1.dis#align" value="4" />
+        <val key="button1.dis#bgImage" value="button1.png" />
+        <val key="button1.dis#bgType" value="1" />
+        <val key="button1.dis#fgColor" value="444444" />
+        <font key="button1.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="button1.dis#marUnit" value="2,2,2,2" />
+        <val key="button1.dis#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="button1.fgColor" value="242e1c" />
+        <font key="button1.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="button1.marUnit" value="2,2,2,2" />
+        <val key="button1.margin" value="1.0,1.0,0.0,0.0" />
+        <val key="button1.press#align" value="4" />
+        <val key="button1.press#bgImage" value="button1.png" />
+        <val key="button1.press#bgType" value="1" />
+        <val key="button1.press#fgColor" value="444444" />
+        <font key="button1.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="button1.press#marUnit" value="2,2,2,2" />
+        <val key="button1.press#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="button1.sel#align" value="4" />
+        <val key="button1.sel#bgImage" value="button1.png" />
+        <val key="button1.sel#bgType" value="1" />
+        <val key="button1.sel#fgColor" value="444444" />
+        <font key="button1.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="button1.sel#marUnit" value="2,2,2,2" />
+        <val key="button1.sel#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="button2.align" value="4" />
+        <val key="button2.bgImage" value="button2.png" />
+        <val key="button2.bgType" value="1" />
+        <val key="button2.dis#align" value="4" />
+        <val key="button2.dis#bgImage" value="button2.png" />
+        <val key="button2.dis#bgType" value="1" />
+        <val key="button2.dis#fgColor" value="444444" />
+        <font key="button2.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="button2.dis#marUnit" value="2,2,2,2" />
+        <val key="button2.dis#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="button2.fgColor" value="444444" />
+        <font key="button2.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="button2.marUnit" value="2,2,2,2" />
+        <val key="button2.margin" value="1.0,1.0,0.0,0.0" />
+        <val key="button2.press#align" value="4" />
+        <val key="button2.press#bgImage" value="button2.png" />
+        <val key="button2.press#bgType" value="1" />
+        <val key="button2.press#fgColor" value="444444" />
+        <font key="button2.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="button2.press#marUnit" value="2,2,2,2" />
+        <val key="button2.press#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="button2.sel#align" value="4" />
+        <val key="button2.sel#bgImage" value="button2.png" />
+        <val key="button2.sel#bgType" value="1" />
+        <val key="button2.sel#fgColor" value="444444" />
+        <font key="button2.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="button2.sel#marUnit" value="2,2,2,2" />
+        <val key="button2.sel#margin" value="1.0,1.0,0.0,0.0" />
         <val key="card_lbl_txt.align" value="4" />
         <val key="card_lbl_txt.fgColor" value="e47911" />
         <font key="card_lbl_txt.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
@@ -1073,6 +1145,12 @@
         <val key="client_details_sb_green.padUnit" value="2,2,2,2" />
         <val key="client_details_sb_green.padding" value="0.0,0.0,0.0,0.0" />
         <val key="client_details_sb_green.transparency" value="0" />
+        <val key="client_home_con_horzintal.bgColor" value="ffffff" />
+        <border key="client_home_con_horzintal.border" type="line" millimeters="true" thickness="0.1" color="2434341" />
+        <val key="client_home_con_horzintal.marUnit" value="0,2,0,2" />
+        <val key="client_home_con_horzintal.margin" value="0.0,0.0,2.0,2.0" />
+        <val key="client_home_con_horzintal.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="client_home_con_horzintal.transparency" value="255" />
         <val key="client_lbl_details_order_status_accepted.align" value="4" />
         <val key="client_lbl_details_order_status_accepted.bgColor" value="e99b35" />
         <border key="client_lbl_details_order_status_accepted.border" type="round" roundBorderColor="10734638" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
@@ -1304,6 +1382,7 @@
         <val key="fab.dis#fgColor" value="ffffff" />
         <val key="fab.fgColor" value="ffffff" />
         <font key="fab.font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="1" actualSize="12.0" />
+        <val key="favorite.fgColor" value="ff2437" />
         <val key="ic_fab.align" value="4" />
         <border key="ic_fab.border" type="round" roundBorderColor="3950150" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="1" shadowOpacity="10" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
         <val key="ic_fab.dis#align" value="4" />
@@ -1522,6 +1601,7 @@
         <val key="under_line_btn.sel#transparency" value="0" />
         <val key="under_line_btn.textDecoration" value="1" />
         <val key="under_line_btn.transparency" value="0" />
+        <val key="unfavorite.fgColor" value="cccccc" />
         <val key="what_is_include.fgColor" value="5e9007" />
         <font key="what_is_include.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
         <val key="whatsapp_background.align" value="4" />
@@ -1532,6 +1612,8 @@
         <val key="whatsapp_background.transparency" value="233" />
         <val key="white.fgColor" value="ffffff" />
     </theme>
+    <image name="ToolBarIconBlack.png"  />
+    <image name="ToolBarIconWhite.png"  />
     <image name="unlock_ic.png"  />
     <image name="user_black.png"  />
     <image name="user_black_512_ic.png"  />

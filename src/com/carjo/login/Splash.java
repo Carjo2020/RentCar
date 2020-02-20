@@ -56,7 +56,7 @@ public class Splash extends BaseLogin {
         this.setBackCommand(back);
     }
 
-//////////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
+////////////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
     protected com.codename1.ui.Label gui_bg_img = new com.codename1.ui.Label();
     protected com.codename1.ui.Label gui_bg_img_gray = new com.codename1.ui.Label();
     protected com.codename1.ui.Container gui_Container = new com.codename1.ui.Container(new com.codename1.ui.layouts.LayeredLayout());
@@ -94,7 +94,7 @@ public class Splash extends BaseLogin {
         gui_logo.setName("logo");
         gui_yallagym.setPreferredSizeStr("47.089947mm 12.698413mm");
                 gui_yallagym.setInlineStylesTheme(resourceObjectInstance);
-        gui_yallagym.setInlineAllStyles("bgImage:Logo---Crop.png;");
+        gui_yallagym.setInlineAllStyles("bgImage:logo_yellow.png;");
         gui_yallagym.setName("yallagym");
         gui_Label.setPreferredSizeStr("52.910053mm inherit");
         gui_Label.setText("Wait for logging ...");

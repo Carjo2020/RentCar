@@ -2,21 +2,16 @@ package com.carjo;
 
 import com.carjo.client.forms.client_home;
 import com.carjo.dialogs.dlg_1_option;
-import com.carjo.login.Splash;
 import com.carjo.owners.OWNERS_API;
 import com.codename1.components.InfiniteProgress;
 import static com.codename1.ui.CN.*;
 import com.codename1.ui.Display;
 import com.codename1.ui.Form;
 import com.codename1.ui.Dialog;
-import com.codename1.ui.Label;
 import com.codename1.ui.plaf.UIManager;
 import com.codename1.ui.util.Resources;
 import com.codename1.io.Log;
 import com.codename1.ui.Toolbar;
-import java.io.IOException;
-import com.codename1.ui.layouts.BoxLayout;
-import com.codename1.io.NetworkEvent;
 import com.codename1.io.Preferences;
 import com.codename1.push.Push;
 import com.codename1.push.PushCallback;
@@ -61,8 +56,53 @@ public class main implements PushCallback {
             return;
         }
         Display.getInstance().registerPush();
-        new Splash(theme).show();
-//        new client_home(theme).show();
+//        new Splash(theme).show();
+        new client_home(theme).show();
+//        String[] characters = {"Tyrion Lannister", "Jaime Lannister", "Cersei Lannister", "Daenerys Targaryen",
+//            "Jon Snow" /* cropped */};
+
+//        Form hi = new Form("Picker");
+//        Picker p = new Picker();
+////        p.
+//        p.setStrings(characters);
+//        p.setSelectedString(characters[0]);
+//        p.addActionListener(e -> ToastBar.showMessage("You picked " + p.getSelectedString(), FontImage.MATERIAL_INFO));
+//        hi.add(p);
+//        hi.show();
+//Form hi = new Form("Button", BoxLayout.y());
+//
+////String[] characters = { "Tyrion Lannister", "Jaime Lannister", "Cersei Lannister"};
+//String[] actors = { "Peter Dinklage", "Nikolaj Coster-Waldau", "Lena Headey"};
+//int size = Display.getInstance().convertToPixels(7);
+//EncodedImage placeholder = EncodedImage.createFromImage(Image.createImage(size, size, 0xffcccccc), true);
+//Image[] pictures = {
+//    URLImage.createToStorage(placeholder, "tyrion","http://i.lv3.hbo.com/assets/images/series/game-of-thrones/character/s5/tyrion-lannister-512x512.jpg"),
+//    URLImage.createToStorage(placeholder, "jaime","http://i.lv3.hbo.com/assets/images/series/game-of-thrones/character/s5/jamie-lannister-512x512.jpg"),
+//    URLImage.createToStorage(placeholder, "cersei","http://i.lv3.hbo.com/assets/images/series/game-of-thrones/character/s5/cersei-lannister-512x512.jpg")
+//};
+//
+//MultiButton b = new MultiButton("Pick A Lanister...");
+//b.addActionListener(e -> {
+//    Dialog d = new Dialog();
+//    d.setLayout(BoxLayout.y());
+//    d.getContentPane().setScrollableY(true);
+//    for(int iter = 0 ; iter < characters.length ; iter++) {
+//        MultiButton mb = new MultiButton(characters[iter]);
+//        mb.setTextLine2(actors[iter]);
+//        mb.setIcon(pictures[iter]);
+//        d.add(mb);
+//        mb.addActionListener(ee -> {
+//            b.setTextLine1(mb.getTextLine1());
+//            b.setTextLine2(mb.getTextLine2());
+//            b.setIcon(mb.getIcon());
+//            d.dispose();
+//            b.revalidate();
+//        });
+//    }
+//    d.showPopupDialog(b);
+//});
+//hi.add(b);
+//hi.show();
     }
 
     public void stop() {

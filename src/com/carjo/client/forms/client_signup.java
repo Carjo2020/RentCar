@@ -68,7 +68,7 @@ public class client_signup extends BaseLogin {
         installFixItems();
     }
 
-////////////////////////////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
+////////////////////////////////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
     protected com.codename1.ui.Container gui_Container = new com.codename1.ui.Container(new com.codename1.ui.layouts.LayeredLayout());
     protected com.codename1.ui.Label gui_bg_img = new com.codename1.ui.Label();
     protected com.codename1.ui.Label gui_bg_img_gray = new com.codename1.ui.Label();
@@ -159,9 +159,9 @@ public class client_signup extends BaseLogin {
         gui_Container.addComponent(gui_Container_1);
         gui_btn_continue.setPreferredSizeStr("57.67196mm 7.6719575mm");
         gui_btn_continue.setText("CONTINUE");
-        gui_btn_continue.setUIID("login_btn");
+        gui_btn_continue.setUIID("button2");
                 gui_btn_continue.setInlineStylesTheme(resourceObjectInstance);
-        gui_btn_continue.setInlineAllStyles("fgColor:ffffff; bgImage:btn_green.png;");
+        gui_btn_continue.setInlineAllStyles("fgColor:ffffff; bgImage:;");
         gui_btn_continue.setName("btn_continue");
         gui_con_first_name.setPreferredSizeStr("20.899471mm 8.994709mm");
         gui_con_first_name.setUIID("con_input");

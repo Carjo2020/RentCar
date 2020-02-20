@@ -1,6 +1,7 @@
 package com.carjo.client.forms;
 
 import com.carjo.client.layouts.logo;
+import com.carjo.login.login_form;
 import com.cn2.lang.cn1Math;
 import com.cn2.ui.cn1Display;
 import com.cn2.ui.cn1Icons;
@@ -23,12 +24,13 @@ import com.codename1.ui.TextField;
 import com.codename1.ui.events.ActionEvent;
 import com.codename1.ui.events.ActionListener;
 import com.codename1.ui.layouts.BorderLayout;
+import com.codename1.ui.layouts.FlowLayout;
 import com.codename1.ui.util.Resources;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-    public class cBaseForm extends Form{
+public class cBaseForm extends Form {
 
     int length = cn1Math.nextDown(getToolbar().getPreferredH() / 3.0);
     private Form cerruntForm = null;
@@ -78,6 +80,10 @@ import java.util.Map;
 //        System.out.println("cn1Display.getHeight()/9:" + cn1Display.getHeight() / 9);
         getToolbar().setPreferredH(Math.max(150, cn1Display.getHeight() / 9));
         this.getToolbar().add(CENTER, new logo(res));
+        Label l=new Label();
+        l.setPreferredH(50);
+         l.setPreferredW(100);
+         this.getToolbar().add(RIGHT, l);
     }
 
     public void installBackIcon(Form backform) {
@@ -123,15 +129,16 @@ import java.util.Map;
     }
 
     public void installSideMenu(Resources res, Form frm) {
-        Label l = new Label("", "YallaGym");
-        l.setPreferredH(cn1Display.getScaledMax(12));
-        l.setPreferredW(cn1Display.getWidth());
-        this.getToolbar().addComponentToLeftSideMenu(l);
-        this.getToolbar().addCommandToLeftSideMenu("   Home", new cn1Icons().getImage("home", "SideCommand", 6), e -> {
-//            new list_form(res).show();
+       Label l = new Label("");
+       l.setIcon(res.getImage("greet.png"));
+        l.setPreferredH(cn1Display.getScaledMax(10));
+        l.setPreferredW(250);
+        this.getToolbar().addComponentToLeftSideMenu(FlowLayout.encloseCenter(l));
+        this.getToolbar().addCommandToLeftSideMenu("   Cars", new cn1Icons().getImage("directions car", "SideCommand", 6), e -> {
+            new client_home(res).show();
         });
         this.getToolbar().addComponentToLeftSideMenu(createDivider());
-        this.getToolbar().addCommandToLeftSideMenu("   Map", new cn1Icons().getImage("map", "SideCommand", 6), e -> {
+        this.getToolbar().addCommandToLeftSideMenu("   Favorites", new cn1Icons().getImage("favorite", "SideCommand", 6), e -> {
 //            if (cerruntForm != null) {
 //                cerruntForm.show();
 //            } else {
@@ -142,20 +149,20 @@ import java.util.Map;
 //            }
 //            new map_form(res, new list_form(res)).show();
         });
-
         this.getToolbar().addComponentToLeftSideMenu(createDivider());
-        this.getToolbar().addCommandToLeftSideMenu("   Personal Information", new cn1Icons().getImage("person", "SideCommand", 6), e -> {
-//            new user_info(res, frm).show();
-        });
-        this.getToolbar().addComponentToLeftSideMenu(createDivider());
-        this.getToolbar().addCommandToLeftSideMenu("   My Orders", new cn1Icons().getImage("business center", "SideCommand", 6), e -> {
+        this.getToolbar().addCommandToLeftSideMenu("   Orders", new cn1Icons().getImage("business center", "SideCommand", 6), e -> {
 //            new user_orders(res, frm).show();
 //            new client_orders(res, frm).show();
         });
         this.getToolbar().addComponentToLeftSideMenu(createDivider());
+        this.getToolbar().addCommandToLeftSideMenu("   Personal Information", new cn1Icons().getImage("person", "SideCommand", 6), e -> {
+//            new user_info(res, frm).show();
+        });
+
+        this.getToolbar().addComponentToLeftSideMenu(createDivider());
         this.getToolbar().addCommandToLeftSideMenu("   Logout", new cn1Icons().getImage("exit to app", "SideCommand", 6), e -> {
             Preferences.clearAll();
-//            new login_form(res).show();
+            new login_form(res).show();
         });
         this.getToolbar().addComponentToLeftSideMenu(createDivider());
 

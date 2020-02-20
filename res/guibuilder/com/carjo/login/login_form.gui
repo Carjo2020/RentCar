@@ -26,10 +26,10 @@
       <component type="Button" uiid="transperent" text="Forgot password?" styles="font:2.5mm; fgColor:ffffff; alignment:right;" preferredSize="34.920635mm 6.0846562mm" name="btn_forget_pass" actionEvent="true">
         <layoutConstraint insets="0.0mm 4.7683716E-7mm auto auto" referenceComponents="4 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
       </component>
-      <component type="Button" uiid="login_btn" text="Log In" styles="fgColor:ffffff; bgImage:btn_green.png;" preferredSize="57.67196mm 8.730159mm" name="btn_login" actionEvent="true">
+      <component type="Button" uiid="button1" text="Log In" styles="bgImage:;" preferredSize="57.67196mm 8.730159mm" name="btn_login" actionEvent="true">
         <layoutConstraint insets="1.0mm 0.0mm auto 0.0mm" referenceComponents="1 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
       </component>
-      <component type="Button" uiid="login_btn" text="Sign Up" styles="fgColor:0; bgImage:Book_Now_Button.png;" preferredSize="29.89418mm 9.259259mm" name="btn_sign_up" actionEvent="true">
+      <component type="Button" uiid="button2" text="Sign Up" styles="bgImage:;" preferredSize="29.89418mm 9.259259mm" name="btn_sign_up" actionEvent="true">
         <layoutConstraint insets="2.0mm 15.0% auto 15.0%" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
       </component>
       <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="81.74603" layeredLayoutPreferredHeightMM="8.730159"  uiid="con_input" preferredSize="81.74603mm 8.730159mm" name="con_pass">

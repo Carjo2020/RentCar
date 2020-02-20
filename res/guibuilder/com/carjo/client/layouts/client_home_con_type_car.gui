@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" name="client_home_con_type_car">
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="40.21164" layeredLayoutPreferredHeightMM="20.37037"  preferredSize="40.21164mm 33.862434mm" name="Container">
+    <layoutConstraint insets="0.0mm 0.0mm 0.0mm 22.44898%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Button" text="" preferredSize="8.465609mm inherit" name="Button">
+    <layoutConstraint insets="auto auto auto 2.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+</component>

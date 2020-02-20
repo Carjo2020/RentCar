@@ -12,7 +12,7 @@
     <component type="Label" styles="bgImage:logo.png;" preferredSize="41.534393mm 41.798943mm" name="logo">
       <layoutConstraint insets="10.0% auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
     </component>
-    <component type="Label" styles="bgImage:Logo---Crop.png;" preferredSize="47.089947mm 12.698413mm" name="yallagym">
+    <component type="Label" styles="bgImage:logo_yellow.png;" preferredSize="47.089947mm 12.698413mm" name="yallagym">
       <layoutConstraint insets="5.0% auto auto auto" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
     </component>
     <component type="Label" uiid="lbl_white" text="Wait for logging ..." preferredSize="52.910053mm inherit" name="Label">

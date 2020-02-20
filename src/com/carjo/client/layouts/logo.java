@@ -1,17 +1,18 @@
- package com.carjo.client.layouts;  
+package com.carjo.client.layouts;
 
 public class logo extends com.codename1.ui.Container {
+
     public logo() {
         this(com.codename1.ui.util.Resources.getGlobalResources());
-
+        
     }
     
     public logo(com.codename1.ui.util.Resources resourceObjectInstance) {
         initGuiBuilderComponents(resourceObjectInstance);
-        /// ...
+        gui_Label.setPreferredW(gui_Label.getPreferredH());
     }
-    
-////-- DON'T EDIT BELOW THIS LINE!!!
+
+////////-- DON'T EDIT BELOW THIS LINE!!!
     protected com.codename1.ui.Container gui_Container = new com.codename1.ui.Container(new com.codename1.ui.layouts.LayeredLayout());
     protected com.codename1.ui.Label gui_Label = new com.codename1.ui.Label();
 
@@ -26,9 +27,9 @@ public class logo extends com.codename1.ui.Container {
                 gui_Container.setInlineStylesTheme(resourceObjectInstance);
         gui_Container.setName("Container");
         addComponent(gui_Container);
-        gui_Label.setPreferredSizeStr("23.280424mm 7.6719575mm");
+        gui_Label.setPreferredSizeStr("11.640212mm 7.6719575mm");
                 gui_Label.setInlineStylesTheme(resourceObjectInstance);
-        gui_Label.setInlineAllStyles("bgImage:Logo---Crop.png;");
+        gui_Label.setInlineAllStyles("bgImage:ToolBarIconWhite.png;");
         gui_Label.setName("Label");
         gui_Container.addComponent(gui_Label);
         ((com.codename1.ui.layouts.LayeredLayout)gui_Label.getParent().getLayout()).setInsets(gui_Label, "auto auto auto auto").setReferenceComponents(gui_Label, "-1 -1 -1 -1").setReferencePositions(gui_Label, "0.0 0.0 0.0 0.0");

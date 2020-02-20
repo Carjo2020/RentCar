@@ -21,7 +21,7 @@
           <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
         </component>
       </component>
-      <component type="Button" uiid="login_btn" text="CONTINUE" styles="fgColor:ffffff; bgImage:btn_green.png;" preferredSize="57.67196mm 7.6719575mm" name="btn_continue" actionEvent="true">
+      <component type="Button" uiid="button1" text="CONTINUE" styles="bgImage:;" preferredSize="57.67196mm 7.6719575mm" name="btn_continue" actionEvent="true">
         <layoutConstraint insets="3.0mm 0.0mm auto 0.0mm" referenceComponents="2 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
       </component>
       <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="59.25926" layeredLayoutPreferredHeightMM="8.994709"  uiid="con_input" preferredSize="74.07407mm 8.994709mm" name="con_user">

@@ -49,7 +49,7 @@ public class client_forget extends BaseLogin {
         }
     }
 
-//////////////////////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
+////////////////////////////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
     protected com.codename1.ui.Container gui_Container = new com.codename1.ui.Container(new com.codename1.ui.layouts.LayeredLayout());
     protected com.codename1.ui.Label gui_bg_img = new com.codename1.ui.Label();
     protected com.codename1.ui.Label gui_bg_img_gray = new com.codename1.ui.Label();
@@ -137,9 +137,9 @@ public class client_forget extends BaseLogin {
         gui_Container_2.setName("Container_2");
         gui_btn_continue.setPreferredSizeStr("57.67196mm 7.6719575mm");
         gui_btn_continue.setText("CONTINUE");
-        gui_btn_continue.setUIID("login_btn");
+        gui_btn_continue.setUIID("button1");
                 gui_btn_continue.setInlineStylesTheme(resourceObjectInstance);
-        gui_btn_continue.setInlineAllStyles("fgColor:ffffff; bgImage:btn_green.png;");
+        gui_btn_continue.setInlineAllStyles("bgImage:;");
         gui_btn_continue.setName("btn_continue");
         gui_con_user.setPreferredSizeStr("74.07407mm 8.994709mm");
         gui_con_user.setUIID("con_input");

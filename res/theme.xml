@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="10" useXmlUI="false">
+    <image name="accepted_order_green_ic.png"  />
+    <image name="accepted_order_ic.png"  />
+    <image name="background-image.png"  />
+    <image name="block_ic.png"  />
+    <image name="Book_Now_Button.png"  />
+    <image name="btn_green.png"  />
+    <image name="btn_red.png"  />
+    <image name="camera_gradient_ic.png"  />
+    <image name="cancel_ic.png"  />
+    <image name="circle_correct_ic.png"  />
+    <image name="circle_not_correct_ic.png"  />
+    <image name="convers_ic.png"  />
+    <image name="correct.png"  />
+    <image name="correct_ic.png"  />
+    <image name="dark-layer.png"  />
+    <image name="delete_ic.png"  />
+    <image name="devider_gray_ic.png"  />
+    <image name="divider_ic.png"  />
+    <image name="facebook-logo.png"  />
+    <image name="filled.png"  />
+    <image name="finish_order_black_ic.png"  />
+    <image name="finish_order_ic.png"  />
+    <image name="flag-jordan.png"  />
+    <image name="gold.png"  />
+    <image name="google-plus.png"  />
+    <image name="green_place.png"  />
+    <image name="greet.png"  />
+    <image name="hours.png"  />
+    <image name="hours_white.png"  />
+    <image name="ic_card.png"  />
+    <image name="ic_datePiker.png"  />
+    <image name="ic_fab.png"  />
+    <image name="in_proccess_order_ic.png"  />
+    <image name="in_proccess_order_orange_ic.png"  />
+    <image name="lock_ic.png"  />
+    <image name="Logo---Crop.png"  />
+    <image name="logo.png"  />
+    <image name="mail_ic.png"  />
+    <image name="Map.png"  />
+    <image name="message_ic.png"  />
+    <image name="multi_arrowr_right.png"  />
+    <image name="not_accepted_order_ic.png"  />
+    <image name="not_accepted_order_red_ic.png"  />
+    <image name="place_holder.png"  />
+    <image name="Placeholder-1.jpg"  />
+    <image name="qrcode_ic.png"  />
+    <image name="river_ic.png"  />
+    <image name="search_ic.png"  />
+    <image name="search_icon1.png"  />
+    <image name="search_input.png"  />
+    <image name="sideMenuIcon.png"  />
+    <image name="switch-mask.png"  />
+    <image name="terms_hand_ic.png"  />
+    <theme name="Theme">
+        <val key="@includeNativeBool" value="true" />
+        <val key="Activation_Input.bgColor" value="ffffff" />
+        <border key="Activation_Input.border" type="empty" />
+        <val key="Activation_Input.dis#bgColor" value="ffffff" />
+        <border key="Activation_Input.dis#border" type="empty" />
+        <val key="Activation_Input.dis#fgColor" value="0" />
+        <font key="Activation_Input.dis#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="Activation_Input.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input.dis#transparency" value="255" />
+        <val key="Activation_Input.fgColor" value="0" />
+        <font key="Activation_Input.font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="Activation_Input.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input.press#bgColor" value="ffffff" />
+        <border key="Activation_Input.press#border" type="empty" />
+        <val key="Activation_Input.press#fgColor" value="0" />
+        <font key="Activation_Input.press#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="Activation_Input.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input.press#transparency" value="255" />
+        <val key="Activation_Input.sel#bgColor" value="ffffff" />
+        <border key="Activation_Input.sel#border" type="empty" />
+        <val key="Activation_Input.sel#fgColor" value="0" />
+        <font key="Activation_Input.sel#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="Activation_Input.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input.sel#transparency" value="255" />
+        <val key="Activation_Input.transparency" value="255" />
+        <val key="Activation_Input_Under_Line.bgColor" value="ffffff" />
+        <border key="Activation_Input_Under_Line.border" type="underline"  millimeters="false" thickness="3.0" color="0" />
+        <val key="Activation_Input_Under_Line.dis#bgColor" value="ffffff" />
+        <border key="Activation_Input_Under_Line.dis#border" type="underline"  millimeters="false" thickness="3.0" color="0" />
+        <val key="Activation_Input_Under_Line.dis#fgColor" value="0" />
+        <font key="Activation_Input_Under_Line.dis#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="Activation_Input_Under_Line.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input_Under_Line.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input_Under_Line.dis#transparency" value="255" />
+        <val key="Activation_Input_Under_Line.fgColor" value="0" />
+        <font key="Activation_Input_Under_Line.font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="Activation_Input_Under_Line.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input_Under_Line.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input_Under_Line.press#bgColor" value="ffffff" />
+        <border key="Activation_Input_Under_Line.press#border" type="underline"  millimeters="false" thickness="3.0" color="0" />
+        <val key="Activation_Input_Under_Line.press#fgColor" value="0" />
+        <font key="Activation_Input_Under_Line.press#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="Activation_Input_Under_Line.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input_Under_Line.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input_Under_Line.press#transparency" value="255" />
+        <val key="Activation_Input_Under_Line.sel#bgColor" value="ffffff" />
+        <border key="Activation_Input_Under_Line.sel#border" type="underline"  millimeters="false" thickness="3.0" color="0" />
+        <val key="Activation_Input_Under_Line.sel#fgColor" value="0" />
+        <font key="Activation_Input_Under_Line.sel#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="Activation_Input_Under_Line.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input_Under_Line.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Input_Under_Line.sel#transparency" value="255" />
+        <val key="Activation_Input_Under_Line.transparency" value="255" />
+        <val key="Activation_Title.dis#bgColor" value="ffffff" />
+        <border key="Activation_Title.dis#border" type="empty" />
+        <val key="Activation_Title.dis#fgColor" value="0" />
+        <font key="Activation_Title.dis#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="3.0" />
+        <val key="Activation_Title.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Title.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Activation_Title.dis#transparency" value="255" />
+        <val key="AutoCompleteList.dis#padUnit" value="2,0,2,0" />
+        <val key="AutoCompleteList.dis#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="AutoCompleteList.padUnit" value="2,0,2,0" />
+        <val key="AutoCompleteList.padding" value="2.0,2.0,0.0,0.0" />
+        <val key="AutoCompleteList.press#padUnit" value="2,0,2,0" />
+        <val key="AutoCompleteList.press#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="AutoCompleteList.sel#padUnit" value="2,0,2,0" />
+        <val key="AutoCompleteList.sel#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="AutoCompletePopup.bgColor" value="ffffff" />
+        <border key="AutoCompletePopup.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="2.0" shadowOpacity="30" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="AutoCompletePopup.padUnit" value="2,2,2,2" />
+        <val key="AutoCompletePopup.padding" value="2.0,2.0,2.0,2.0" />
+        <val key="CheckBox.dis#fgColor" value="0" />
+        <font key="CheckBox.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="CheckBox.dis#padUnit" value="2,0,2,0" />
+        <val key="CheckBox.dis#padding" value="1.5,1.5,4.0,0.0" />
+        <val key="CheckBox.fgColor" value="0" />
+        <font key="CheckBox.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="CheckBox.padUnit" value="2,0,2,0" />
+        <val key="CheckBox.padding" value="1.5,1.5,4.0,0.0" />
+        <val key="CheckBox.press#fgColor" value="0" />
+        <font key="CheckBox.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="CheckBox.press#padUnit" value="2,0,2,0" />
+        <val key="CheckBox.press#padding" value="1.5,1.5,4.0,0.0" />
+        <val key="CheckBox.sel#fgColor" value="0" />
+        <font key="CheckBox.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="CheckBox.sel#padUnit" value="2,0,2,0" />
+        <val key="CheckBox.sel#padding" value="1.5,1.5,4.0,0.0" />
+        <val key="ComboBox.align" value="4" />
+        <val key="ComboBox.bgColor" value="0" />
+        <border key="ComboBox.border" type="line" millimeters="false" thickness="3.0" color="16777215" />
+        <val key="ComboBox.fgColor" value="ffffff" />
+        <val key="ComboBox.transparency" value="75" />
+        <val key="ComboBoxItem.align" value="4" />
+        <val key="ComboBoxItem.bgColor" value="0" />
+        <border key="ComboBoxItem.border" type="empty" />
+        <val key="ComboBoxItem.dis#fgColor" value="0" />
+        <font key="ComboBoxItem.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="ComboBoxItem.fgColor" value="ffffff" />
+        <font key="ComboBoxItem.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="ComboBoxItem.padUnit" value="2,0,2,0" />
+        <val key="ComboBoxItem.padding" value="1.5,1.5,4.0,0.0" />
+        <val key="ComboBoxItem.press#fgColor" value="0" />
+        <font key="ComboBoxItem.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="ComboBoxItem.sel#fgColor" value="0" />
+        <font key="ComboBoxItem.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="ComboBoxItem.transparency" value="255" />
+        <val key="ComboBoxList.bgColor" value="0" />
+        <border key="ComboBoxList.border" type="empty" />
+        <val key="ComboBoxList.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="ComboBoxList.transparency" value="75" />
+        <val key="ComboBoxPopup.bgColor" value="0" />
+        <border key="ComboBoxPopup.border" type="empty" />
+        <val key="ComboBoxPopup.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="ComboBoxPopup.transparency" value="75" />
+        <val key="Command.fgColor" value="ffffff" />
+        <val key="Con_From.align" value="4" />
+        <val key="Con_From.bgColor" value="ffffff" />
+        <border key="Con_From.border" type="line" millimeters="false" thickness="3.0" color="15527148" />
+        <val key="Con_From.dis#align" value="4" />
+        <val key="Con_From.dis#bgColor" value="ffffff" />
+        <border key="Con_From.dis#border" type="line" millimeters="false" thickness="3.0" color="15527148" />
+        <val key="Con_From.dis#fgColor" value="0" />
+        <font key="Con_From.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="Con_From.dis#padUnit" value="0,0,0,2" />
+        <val key="Con_From.dis#padding" value="0.0,0.0,0.0,3.0" />
+        <val key="Con_From.dis#transparency" value="255" />
+        <val key="Con_From.fgColor" value="0" />
+        <font key="Con_From.font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="Con_From.padUnit" value="0,0,0,2" />
+        <val key="Con_From.padding" value="0.0,0.0,0.0,3.0" />
+        <val key="Con_From.press#align" value="4" />
+        <val key="Con_From.press#bgColor" value="ffffff" />
+        <border key="Con_From.press#border" type="line" millimeters="false" thickness="3.0" color="15527148" />
+        <val key="Con_From.press#fgColor" value="0" />
+        <font key="Con_From.press#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="Con_From.press#padUnit" value="0,0,0,2" />
+        <val key="Con_From.press#padding" value="0.0,0.0,0.0,3.0" />
+        <val key="Con_From.press#transparency" value="255" />
+        <val key="Con_From.sel#align" value="4" />
+        <val key="Con_From.sel#bgColor" value="ffffff" />
+        <border key="Con_From.sel#border" type="line" millimeters="false" thickness="3.0" color="15527148" />
+        <val key="Con_From.sel#fgColor" value="0" />
+        <font key="Con_From.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="Con_From.sel#padUnit" value="0,0,0,2" />
+        <val key="Con_From.sel#padding" value="0.0,0.0,0.0,3.0" />
+        <val key="Con_From.sel#transparency" value="255" />
+        <val key="Con_From.transparency" value="255" />
+        <val key="ContentPane.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="ContentPane.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Correct_Msg_Save_Lbl.align" value="4" />
+        <val key="Correct_Msg_Save_Lbl.fgColor" value="5e9007" />
+        <font key="Correct_Msg_Save_Lbl.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.5" />
+        <val key="Correct_Msg_Sb_Txt.align" value="4" />
+        <val key="Correct_Msg_Sb_Txt.dis#align" value="4" />
+        <val key="Correct_Msg_Sb_Txt.dis#fgColor" value="333333" />
+        <font key="Correct_Msg_Sb_Txt.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="Correct_Msg_Sb_Txt.dis#padding" value="0.0,0.0,13.0,13.0" />
+        <val key="Correct_Msg_Sb_Txt.fgColor" value="333333" />
+        <font key="Correct_Msg_Sb_Txt.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="Correct_Msg_Sb_Txt.padding" value="0.0,0.0,13.0,13.0" />
+        <val key="Correct_Msg_Sb_Txt.press#align" value="4" />
+        <val key="Correct_Msg_Sb_Txt.press#fgColor" value="333333" />
+        <font key="Correct_Msg_Sb_Txt.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="Correct_Msg_Sb_Txt.press#padding" value="0.0,0.0,13.0,13.0" />
+        <val key="Correct_Msg_Sb_Txt.sel#align" value="4" />
+        <val key="Correct_Msg_Sb_Txt.sel#fgColor" value="333333" />
+        <font key="Correct_Msg_Sb_Txt.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="Correct_Msg_Sb_Txt.sel#padding" value="0.0,0.0,13.0,13.0" />
+        <val key="Details_Con.bgColor" value="ebebeb" />
+        <border key="Details_Con.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="4.0" bezierCorners="false" />
+        <val key="Details_Con.transparency" value="255" />
+        <val key="Details_Lbls.fgColor" value="3c4646" />
+        <font key="Details_Lbls.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="Detalis_Sb_green.dis#fgColor" value="405721" />
+        <font key="Detalis_Sb_green.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="Detalis_Sb_green.dis#padUnit" value="2,0,2,0" />
+        <val key="Detalis_Sb_green.dis#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="Detalis_Sb_green.fgColor" value="405721" />
+        <font key="Detalis_Sb_green.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="Detalis_Sb_green.padUnit" value="2,0,2,0" />
+        <val key="Detalis_Sb_green.padding" value="2.0,2.0,0.0,0.0" />
+        <val key="Detalis_Sb_green.press#fgColor" value="405721" />
+        <font key="Detalis_Sb_green.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="Detalis_Sb_green.press#padUnit" value="2,0,2,0" />
+        <val key="Detalis_Sb_green.press#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="Detalis_Sb_green.sel#fgColor" value="405721" />
+        <font key="Detalis_Sb_green.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="Detalis_Sb_green.sel#padUnit" value="2,0,2,0" />
+        <val key="Detalis_Sb_green.sel#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="Detalis_Sb_white.dis#fgColor" value="ffffff" />
+        <font key="Detalis_Sb_white.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="Detalis_Sb_white.fgColor" value="ffffff" />
+        <font key="Detalis_Sb_white.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="Detalis_Sb_white.press#fgColor" value="ffffff" />
+        <font key="Detalis_Sb_white.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="Detalis_Sb_white.sel#fgColor" value="ffffff" />
+        <font key="Detalis_Sb_white.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="Detalis_Sb_white_pay.fgColor" value="ffffff" />
+        <font key="Detalis_Sb_white_pay.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="DialogButtonCommand.bgImage" value="btn_green.png" />
+        <val key="DialogButtonCommand.bgType" value="1" />
+        <val key="DialogContentPane.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="DialogContentPane.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Dialog_Btn.align" value="4" />
+        <val key="Dialog_Btn.bgColor" value="609504" />
+        <border key="Dialog_Btn.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="3.0" bezierCorners="false" />
+        <val key="Dialog_Btn.dis#align" value="4" />
+        <val key="Dialog_Btn.dis#bgColor" value="609504" />
+        <border key="Dialog_Btn.dis#border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="3.0" bezierCorners="false" />
+        <val key="Dialog_Btn.dis#fgColor" value="ffffff" />
+        <font key="Dialog_Btn.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="Dialog_Btn.dis#transparency" value="255" />
+        <val key="Dialog_Btn.fgColor" value="ffffff" />
+        <font key="Dialog_Btn.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="Dialog_Btn.press#align" value="4" />
+        <val key="Dialog_Btn.press#bgColor" value="609504" />
+        <border key="Dialog_Btn.press#border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="3.0" bezierCorners="false" />
+        <val key="Dialog_Btn.press#fgColor" value="ffffff" />
+        <font key="Dialog_Btn.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="Dialog_Btn.press#transparency" value="255" />
+        <val key="Dialog_Btn.sel#align" value="4" />
+        <val key="Dialog_Btn.sel#bgColor" value="609504" />
+        <border key="Dialog_Btn.sel#border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="3.0" bezierCorners="false" />
+        <val key="Dialog_Btn.sel#fgColor" value="ffffff" />
+        <font key="Dialog_Btn.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="Dialog_Btn.sel#transparency" value="255" />
+        <val key="Dialog_Btn.transparency" value="255" />
+        <val key="Dialog_ContantPane.bgColor" value="ffffff" />
+        <border key="Dialog_ContantPane.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="5.0" shadowOpacity="30" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="Dialog_ContantPane.padUnit" value="2,2,2,2" />
+        <val key="Dialog_ContantPane.padding" value="4.0,4.0,4.0,4.0" />
+        <val key="Dialog_ContantPane.transparency" value="255" />
+        <val key="Dialog_Devider.bgColor" value="ffffff" />
+        <border key="Dialog_Devider.border" type="empty" />
+        <val key="Dialog_Devider.marUnit" value="2,0,2,0" />
+        <val key="Dialog_Devider.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Dialog_Devider.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Dialog_Devider.transparency" value="255" />
+        <val key="Dialog_Msg.align" value="1" />
+        <val key="Dialog_Msg.dis#align" value="1" />
+        <val key="Dialog_Msg.dis#fgColor" value="0" />
+        <font key="Dialog_Msg.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="Dialog_Msg.fgColor" value="0" />
+        <font key="Dialog_Msg.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="Dialog_Msg.press#align" value="1" />
+        <val key="Dialog_Msg.press#fgColor" value="0" />
+        <font key="Dialog_Msg.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="Dialog_Msg.sel#align" value="1" />
+        <val key="Dialog_Msg.sel#fgColor" value="0" />
+        <font key="Dialog_Msg.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="Dialog_Title.align" value="4" />
+        <val key="Dialog_Title.bgColor" value="232f3e" />
+        <border key="Dialog_Title.border" type="empty" />
+        <val key="Dialog_Title.fgColor" value="ffffff" />
+        <font key="Dialog_Title.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="Dialog_Title.transparency" value="233" />
+        <val key="Digit.bgColor" value="ffffff" />
+        <border key="Digit.border" type="underline"  millimeters="false" thickness="2.0" color="15527148" />
+        <val key="Digit.dis#bgColor" value="ffffff" />
+        <border key="Digit.dis#border" type="underline"  millimeters="false" thickness="3.0" color="15527148" />
+        <val key="Digit.dis#fgColor" value="0" />
+        <font key="Digit.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.7" />
+        <val key="Digit.dis#marUnit" value="0,2,0,0" />
+        <val key="Digit.dis#margin" value="0.0,0.0,4.0,0.0" />
+        <val key="Digit.dis#padUnit" value="2,2,2,2" />
+        <val key="Digit.dis#padding" value="3.0,1.0,1.0,1.0" />
+        <val key="Digit.dis#transparency" value="0" />
+        <val key="Digit.fgColor" value="0" />
+        <font key="Digit.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.7" />
+        <val key="Digit.marUnit" value="0,2,0,0" />
+        <val key="Digit.margin" value="0.0,0.0,4.0,0.0" />
+        <val key="Digit.padUnit" value="2,2,2,2" />
+        <val key="Digit.padding" value="3.0,1.0,1.0,1.0" />
+        <val key="Digit.press#bgColor" value="ffffff" />
+        <border key="Digit.press#border" type="underline"  millimeters="false" thickness="3.0" color="15527148" />
+        <val key="Digit.press#fgColor" value="0" />
+        <font key="Digit.press#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.7" />
+        <val key="Digit.press#marUnit" value="0,2,0,0" />
+        <val key="Digit.press#margin" value="0.0,0.0,4.0,0.0" />
+        <val key="Digit.press#padUnit" value="2,2,2,2" />
+        <val key="Digit.press#padding" value="3.0,1.0,1.0,1.0" />
+        <val key="Digit.press#transparency" value="0" />
+        <val key="Digit.sel#bgColor" value="ffffff" />
+        <border key="Digit.sel#border" type="underline"  millimeters="false" thickness="3.0" color="0" />
+        <val key="Digit.sel#fgColor" value="0" />
+        <font key="Digit.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.7" />
+        <val key="Digit.sel#marUnit" value="0,2,0,0" />
+        <val key="Digit.sel#margin" value="0.0,0.0,4.0,0.0" />
+        <val key="Digit.sel#padUnit" value="2,2,2,2" />
+        <val key="Digit.sel#padding" value="3.0,1.0,1.0,1.0" />
+        <val key="Digit.sel#transparency" value="0" />
+        <val key="Digit.transparency" value="0" />
+        <val key="FloatingActionButton.align" value="4" />
+        <val key="FloatingActionButton.bgColor" value="3c4646" />
+        <val key="FloatingActionButton.dis#align" value="4" />
+        <val key="FloatingActionButton.dis#bgColor" value="3c4646" />
+        <val key="FloatingActionButton.dis#fgColor" value="f7ed23" />
+        <font key="FloatingActionButton.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="2" actualSize="12.0" />
+        <val key="FloatingActionButton.dis#transparency" value="255" />
+        <val key="FloatingActionButton.fgColor" value="f7ed23" />
+        <font key="FloatingActionButton.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="2" actualSize="12.0" />
+        <val key="FloatingActionButton.press#align" value="4" />
+        <val key="FloatingActionButton.press#bgColor" value="3c4646" />
+        <val key="FloatingActionButton.press#fgColor" value="f7ed23" />
+        <font key="FloatingActionButton.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="2" actualSize="12.0" />
+        <val key="FloatingActionButton.press#transparency" value="255" />
+        <val key="FloatingActionButton.sel#align" value="4" />
+        <val key="FloatingActionButton.sel#bgColor" value="3c4646" />
+        <val key="FloatingActionButton.sel#fgColor" value="f7ed23" />
+        <font key="FloatingActionButton.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="2" actualSize="12.0" />
+        <val key="FloatingActionButton.sel#transparency" value="255" />
+        <val key="FloatingActionButton.transparency" value="255" />
+        <val key="FloatingActionButtonClose.align" value="4" />
+        <val key="FloatingActionButtonClose.bgColor" value="3c4646" />
+        <val key="FloatingActionButtonClose.dis#align" value="4" />
+        <val key="FloatingActionButtonClose.dis#bgColor" value="3c4646" />
+        <val key="FloatingActionButtonClose.dis#fgColor" value="ff6565" />
+        <font key="FloatingActionButtonClose.dis#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="2" actualSize="12.0" />
+        <val key="FloatingActionButtonClose.dis#transparency" value="255" />
+        <val key="FloatingActionButtonClose.fgColor" value="ff6565" />
+        <font key="FloatingActionButtonClose.font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="2" actualSize="12.0" />
+        <val key="FloatingActionButtonClose.press#align" value="4" />
+        <val key="FloatingActionButtonClose.press#bgColor" value="3c4646" />
+        <val key="FloatingActionButtonClose.press#fgColor" value="ff6565" />
+        <font key="FloatingActionButtonClose.press#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="2" actualSize="12.0" />
+        <val key="FloatingActionButtonClose.press#transparency" value="255" />
+        <val key="FloatingActionButtonClose.sel#align" value="4" />
+        <val key="FloatingActionButtonClose.sel#bgColor" value="3c4646" />
+        <val key="FloatingActionButtonClose.sel#fgColor" value="ff6565" />
+        <font key="FloatingActionButtonClose.sel#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="2" actualSize="12.0" />
+        <val key="FloatingActionButtonClose.sel#transparency" value="255" />
+        <val key="FloatingActionButtonClose.transparency" value="255" />
+        <val key="Gray_Con.bgColor" value="ebebeb" />
+        <border key="Gray_Con.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="7.0" bezierCorners="false" />
+        <val key="Gray_Con.marUnit" value="2,2,2,2" />
+        <val key="Gray_Con.margin" value="2.0,2.0,2.0,2.0" />
+        <val key="Gray_Con.padUnit" value="2,2,2,2" />
+        <val key="Gray_Con.padding" value="1.0,1.0,1.0,1.0" />
+        <val key="Gray_Con.transparency" value="255" />
+        <val key="Home_Cars_Con.bgColor" value="ffffff" />
+        <border key="Home_Cars_Con.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="5.0" shadowOpacity="30" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="Home_Cars_Con.padUnit" value="2,2,2,2" />
+        <val key="Home_Cars_Con.padding" value="3.0,3.0,3.0,3.0" />
+        <val key="Home_Cars_Con.transparency" value="255" />
+        <val key="Home_Cars_Con_Btn_ShowMore.align" value="1" />
+        <val key="Home_Cars_Con_Btn_ShowMore.bgColor" value="ffffff" />
+        <border key="Home_Cars_Con_Btn_ShowMore.border" type="empty" />
+        <val key="Home_Cars_Con_Btn_ShowMore.dis#align" value="1" />
+        <val key="Home_Cars_Con_Btn_ShowMore.dis#bgColor" value="ffffff" />
+        <border key="Home_Cars_Con_Btn_ShowMore.dis#border" type="empty" />
+        <font key="Home_Cars_Con_Btn_ShowMore.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="Home_Cars_Con_Btn_ShowMore.dis#textDecoration" value="1" />
+        <val key="Home_Cars_Con_Btn_ShowMore.dis#transparency" value="0" />
+        <font key="Home_Cars_Con_Btn_ShowMore.font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="Home_Cars_Con_Btn_ShowMore.press#align" value="1" />
+        <val key="Home_Cars_Con_Btn_ShowMore.press#bgColor" value="ffffff" />
+        <border key="Home_Cars_Con_Btn_ShowMore.press#border" type="empty" />
+        <font key="Home_Cars_Con_Btn_ShowMore.press#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="Home_Cars_Con_Btn_ShowMore.press#textDecoration" value="1" />
+        <val key="Home_Cars_Con_Btn_ShowMore.press#transparency" value="0" />
+        <val key="Home_Cars_Con_Btn_ShowMore.sel#align" value="1" />
+        <val key="Home_Cars_Con_Btn_ShowMore.sel#bgColor" value="ffffff" />
+        <border key="Home_Cars_Con_Btn_ShowMore.sel#border" type="empty" />
+        <font key="Home_Cars_Con_Btn_ShowMore.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="Home_Cars_Con_Btn_ShowMore.sel#textDecoration" value="1" />
+        <val key="Home_Cars_Con_Btn_ShowMore.sel#transparency" value="0" />
+        <val key="Home_Cars_Con_Btn_ShowMore.textDecoration" value="1" />
+        <val key="Home_Cars_Con_Btn_ShowMore.transparency" value="0" />
+        <val key="Home_Cars_Con_Title.align" value="1" />
+        <val key="Home_Cars_Con_Title.fgColor" value="0" />
+        <font key="Home_Cars_Con_Title.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="4.0" />
+        <val key="Home_Cars_Con_lbl_day.align" value="1" />
+        <val key="Home_Cars_Con_lbl_day.bgColor" value="ffffff" />
+        <border key="Home_Cars_Con_lbl_day.border" type="empty" />
+        <val key="Home_Cars_Con_lbl_day.fgColor" value="0" />
+        <font key="Home_Cars_Con_lbl_day.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.0" />
+        <val key="Home_Cars_Con_lbl_day.transparency" value="0" />
+        <val key="Home_Cars_Con_lbl_discount.align" value="1" />
+        <val key="Home_Cars_Con_lbl_discount.bgColor" value="ffffff" />
+        <border key="Home_Cars_Con_lbl_discount.border" type="empty" />
+        <val key="Home_Cars_Con_lbl_discount.fgColor" value="0" />
+        <font key="Home_Cars_Con_lbl_discount.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.0" />
+        <val key="Home_Cars_Con_lbl_discount.textDecoration" value="2" />
+        <val key="Home_Cars_Con_lbl_discount.transparency" value="0" />
+        <val key="Home_Cars_Con_price.align" value="3" />
+        <val key="Home_Cars_Con_price.fgColor" value="0" />
+        <font key="Home_Cars_Con_price.font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="4.0" />
+        <val key="Home_Con_Item.align" value="1" />
+        <val key="Home_Con_Item.bgColor" value="ffffff" />
+        <border key="Home_Con_Item.border" type="roundRect" strokeColor="13421772" strokeOpacity="255" strokeThickness="1.0" strokeMM="false" shadowSpread="3.0" shadowOpacity="50" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="0.1" bezierCorners="false" />
+        <val key="Home_Con_Item.dis#align" value="1" />
+        <val key="Home_Con_Item.dis#bgColor" value="ffffff" />
+        <border key="Home_Con_Item.dis#border" type="roundRect" strokeColor="13421772" strokeOpacity="255" strokeThickness="1.0" strokeMM="false" shadowSpread="3.0" shadowOpacity="50" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="0.1" bezierCorners="false" />
+        <val key="Home_Con_Item.dis#padUnit" value="2,2,2,2" />
+        <val key="Home_Con_Item.dis#padding" value="3.0,3.0,3.0,3.0" />
+        <val key="Home_Con_Item.dis#transparency" value="255" />
+        <val key="Home_Con_Item.padUnit" value="2,2,2,2" />
+        <val key="Home_Con_Item.padding" value="4.0,2.0,2.0,2.0" />
+        <val key="Home_Con_Item.press#align" value="1" />
+        <val key="Home_Con_Item.press#bgColor" value="ffffff" />
+        <border key="Home_Con_Item.press#border" type="roundRect" strokeColor="13421772" strokeOpacity="255" strokeThickness="1.0" strokeMM="false" shadowSpread="3.0" shadowOpacity="50" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="0.1" bezierCorners="false" />
+        <val key="Home_Con_Item.press#padUnit" value="2,2,2,2" />
+        <val key="Home_Con_Item.press#padding" value="4.0,2.0,2.0,2.0" />
+        <val key="Home_Con_Item.press#transparency" value="255" />
+        <val key="Home_Con_Item.sel#align" value="1" />
+        <val key="Home_Con_Item.sel#bgColor" value="ffffff" />
+        <border key="Home_Con_Item.sel#border" type="roundRect" strokeColor="13421772" strokeOpacity="255" strokeThickness="1.0" strokeMM="false" shadowSpread="3.0" shadowOpacity="50" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="0.1" bezierCorners="false" />
+        <val key="Home_Con_Item.sel#padUnit" value="2,2,2,2" />
+        <val key="Home_Con_Item.sel#padding" value="3.0,3.0,3.0,3.0" />
+        <val key="Home_Con_Item.sel#transparency" value="255" />
+        <val key="Home_Con_Item.transparency" value="255" />
+        <val key="Home_Show_More_Dialog.bgColor" value="ffffff" />
+        <border key="Home_Show_More_Dialog.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="true" bottomOnlyMode="false" cornerRadius="10.0" bezierCorners="false" />
+        <val key="Home_Show_More_Dialog.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Home_Show_More_Dialog.padUnit" value="2,2,0,2" />
+        <val key="Home_Show_More_Dialog.padding" value="3.0,0.0,3.0,3.0" />
+        <val key="Home_Show_More_Dialog.transparency" value="255" />
+        <font key="Home_Show_More_Dialog_Lbls.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.0" />
+        <font key="Home_Show_More_Dialog_Lbls.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.0" />
+        <font key="Home_Show_More_Dialog_Lbls.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.0" />
+        <font key="Home_Show_More_Dialog_Lbls.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.0" />
+        <font key="Home_Show_More_Dialog_Lbls_bolds.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.0" />
+        <val key="Label.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Label.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Login_Input.bgColor" value="ffffff" />
+        <border key="Login_Input.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="Login_Input.dis#bgColor" value="ffffff" />
+        <border key="Login_Input.dis#border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="Login_Input.dis#fgColor" value="0" />
+        <font key="Login_Input.dis#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="Login_Input.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Login_Input.dis#padUnit" value="2,2,0,0" />
+        <val key="Login_Input.dis#padding" value="2.0,0.0,2.0,0.0" />
+        <val key="Login_Input.dis#transparency" value="255" />
+        <val key="Login_Input.fgColor" value="0" />
+        <font key="Login_Input.font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="Login_Input.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Login_Input.padUnit" value="2,2,0,0" />
+        <val key="Login_Input.padding" value="2.0,0.0,2.0,0.0" />
+        <val key="Login_Input.press#bgColor" value="ffffff" />
+        <border key="Login_Input.press#border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="Login_Input.press#fgColor" value="0" />
+        <font key="Login_Input.press#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="Login_Input.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Login_Input.press#padUnit" value="2,2,0,0" />
+        <val key="Login_Input.press#padding" value="4.0,0.0,2.0,0.0" />
+        <val key="Login_Input.press#transparency" value="255" />
+        <val key="Login_Input.sel#bgColor" value="ffffff" />
+        <border key="Login_Input.sel#border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="Login_Input.sel#fgColor" value="0" />
+        <font key="Login_Input.sel#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="Login_Input.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Login_Input.sel#padUnit" value="0,2,0,0" />
+        <val key="Login_Input.sel#padding" value="0.0,0.0,8.0,0.0" />
+        <val key="Login_Input.sel#transparency" value="255" />
+        <val key="Login_Input.transparency" value="255" />
+        <val key="MyOrder_Item_Sb_Pending.fgColor" value="6666ff" />
+        <font key="MyOrder_Item_Sb_Pending.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="MyOrder_Item_Sb_Pending_Accepted.fgColor" value="3c763d" />
+        <font key="MyOrder_Item_Sb_Pending_Accepted.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="MyOrder_Item_Sb_Pending_Deleted.fgColor" value="a94442" />
+        <font key="MyOrder_Item_Sb_Pending_Deleted.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="MyOrder_Item_Sb_Pending_body.bgColor" value="d9edf7" />
+        <border key="MyOrder_Item_Sb_Pending_body.border" type="line" millimeters="false" thickness="1.0" color="6013150" />
+        <val key="MyOrder_Item_Sb_Pending_body.fgColor" value="428bca" />
+        <font key="MyOrder_Item_Sb_Pending_body.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="MyOrder_Item_Sb_Pending_body.transparency" value="255" />
+        <val key="MyOrder_Item_Sb_Pending_body_Accepted.bgColor" value="dff0d8" />
+        <border key="MyOrder_Item_Sb_Pending_body_Accepted.border" type="line" millimeters="false" thickness="1.0" color="6076508" />
+        <val key="MyOrder_Item_Sb_Pending_body_Accepted.fgColor" value="3c763d" />
+        <font key="MyOrder_Item_Sb_Pending_body_Accepted.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="MyOrder_Item_Sb_Pending_body_Accepted.transparency" value="255" />
+        <val key="MyOrder_Item_Sb_Pending_body_Deleted.bgColor" value="f2dede" />
+        <border key="MyOrder_Item_Sb_Pending_body_Deleted.border" type="line" millimeters="false" thickness="1.0" color="11093058" />
+        <val key="MyOrder_Item_Sb_Pending_body_Deleted.fgColor" value="a94442" />
+        <font key="MyOrder_Item_Sb_Pending_body_Deleted.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="MyOrder_Item_Sb_Pending_body_Deleted.transparency" value="255" />
+        <val key="OnOffSwitch.bgColor" value="0" />
+        <border key="OnOffSwitch.border" type="empty" />
+        <val key="OnOffSwitch.transparency" value="255" />
+        <val key="PersonalInfo_Lbl.align" value="1" />
+        <val key="PersonalInfo_Lbl.dis#align" value="3" />
+        <val key="PersonalInfo_Lbl.dis#fgColor" value="0" />
+        <font key="PersonalInfo_Lbl.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="PersonalInfo_Lbl.dis#padUnit" value="0,2,0,2" />
+        <val key="PersonalInfo_Lbl.dis#padding" value="0.0,0.0,0.0,2.0" />
+        <val key="PersonalInfo_Lbl.fgColor" value="0" />
+        <font key="PersonalInfo_Lbl.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="PersonalInfo_Lbl.padUnit" value="0,2,0,2" />
+        <val key="PersonalInfo_Lbl.padding" value="0.0,0.0,2.0,0.0" />
+        <val key="PersonalInfo_Lbl.press#align" value="3" />
+        <val key="PersonalInfo_Lbl.press#fgColor" value="0" />
+        <font key="PersonalInfo_Lbl.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="PersonalInfo_Lbl.press#padUnit" value="0,2,0,2" />
+        <val key="PersonalInfo_Lbl.press#padding" value="0.0,0.0,0.0,2.0" />
+        <val key="PersonalInfo_Lbl.sel#align" value="3" />
+        <val key="PersonalInfo_Lbl.sel#fgColor" value="0" />
+        <font key="PersonalInfo_Lbl.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="PersonalInfo_Lbl.sel#padUnit" value="0,2,0,2" />
+        <val key="PersonalInfo_Lbl.sel#padding" value="0.0,0.0,0.0,2.0" />
+        <val key="PersonalInfo_Lbl_AR.fgColor" value="0" />
+        <font key="PersonalInfo_Lbl_AR.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="PersonalInfo_Lbl_AR.padUnit" value="0,2,0,0" />
+        <val key="PersonalInfo_Lbl_AR.padding" value="0.0,0.0,2.0,0.0" />
+        <val key="PersonalInfo_Lbl_Center.align" value="4" />
+        <val key="PersonalInfo_Lbl_Center.fgColor" value="0" />
+        <font key="PersonalInfo_Lbl_Center.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="PersonalInfo_Lbl_Center.padUnit" value="0,2,0,2" />
+        <val key="PersonalInfo_Lbl_Center.padding" value="0.0,0.0,2.0,0.0" />
+        <val key="Picker.align" value="4" />
+        <val key="Picker.bgColor" value="ffffff" />
+        <border key="Picker.border" type="line" millimeters="false" thickness="3.0" color="15527148" />
+        <val key="Picker.dis#align" value="4" />
+        <val key="Picker.dis#bgColor" value="ffffff" />
+        <border key="Picker.dis#border" type="line" millimeters="false" thickness="3.0" color="15527148" />
+        <val key="Picker.dis#fgColor" value="0" />
+        <font key="Picker.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="Picker.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Picker.dis#transparency" value="255" />
+        <val key="Picker.fgColor" value="0" />
+        <font key="Picker.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="Picker.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Picker.press#align" value="4" />
+        <val key="Picker.press#bgColor" value="ffffff" />
+        <border key="Picker.press#border" type="line" millimeters="false" thickness="3.0" color="15527148" />
+        <val key="Picker.press#fgColor" value="0" />
+        <font key="Picker.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="Picker.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Picker.press#transparency" value="255" />
+        <val key="Picker.sel#align" value="4" />
+        <val key="Picker.sel#bgColor" value="ffffff" />
+        <border key="Picker.sel#border" type="line" millimeters="false" thickness="3.0" color="15527148" />
+        <val key="Picker.sel#fgColor" value="0" />
+        <font key="Picker.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="Picker.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Picker.sel#transparency" value="255" />
+        <val key="Picker.transparency" value="255" />
+        <val key="PopupContentPane.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="ScrollThumb.bgColor" value="f7ed23" />
+        <border key="ScrollThumb.border" type="empty" />
+        <val key="ScrollThumb.transparency" value="255" />
+        <val key="SideCommand.bgColor" value="ffffff" />
+        <border key="SideCommand.border" type="underline"  millimeters="false" thickness="3.0" color="15527148" />
+        <val key="SideCommand.dis#bgColor" value="ffffff" />
+        <border key="SideCommand.dis#border" type="underline"  millimeters="false" thickness="3.0" color="15527148" />
+        <val key="SideCommand.dis#fgColor" value="a5cd34" />
+        <font key="SideCommand.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainBlack" family="native:MainBlack" sizeSettings="3" actualSize="3.0" />
+        <val key="SideCommand.dis#marUnit" value="0,2,0,2" />
+        <val key="SideCommand.dis#margin" value="0.0,0.0,1.0,1.0" />
+        <val key="SideCommand.dis#padUnit" value="2,2,2,0" />
+        <val key="SideCommand.dis#padding" value="4.0,4.0,2.0,0.0" />
+        <val key="SideCommand.dis#textDecoration" value="16" />
+        <val key="SideCommand.dis#transparency" value="255" />
+        <val key="SideCommand.fgColor" value="a5cd34" />
+        <font key="SideCommand.font" type="ttf" face="0" style="0" size="0" name="native:MainBlack" family="native:MainBlack" sizeSettings="3" actualSize="3.0" />
+        <val key="SideCommand.marUnit" value="0,2,0,2" />
+        <val key="SideCommand.margin" value="0.0,0.0,1.0,1.0" />
+        <val key="SideCommand.padUnit" value="2,2,2,0" />
+        <val key="SideCommand.padding" value="4.0,4.0,2.0,0.0" />
+        <val key="SideCommand.press#bgColor" value="ffffff" />
+        <border key="SideCommand.press#border" type="underline"  millimeters="false" thickness="3.0" color="15527148" />
+        <val key="SideCommand.press#fgColor" value="a5cd34" />
+        <font key="SideCommand.press#font" type="ttf" face="0" style="0" size="0" name="native:MainBlack" family="native:MainBlack" sizeSettings="3" actualSize="3.0" />
+        <val key="SideCommand.press#marUnit" value="0,2,0,2" />
+        <val key="SideCommand.press#margin" value="0.0,0.0,1.0,1.0" />
+        <val key="SideCommand.press#padUnit" value="2,2,2,0" />
+        <val key="SideCommand.press#padding" value="4.0,4.0,2.0,0.0" />
+        <val key="SideCommand.press#textDecoration" value="16" />
+        <val key="SideCommand.press#transparency" value="255" />
+        <val key="SideCommand.sel#bgColor" value="ffffff" />
+        <border key="SideCommand.sel#border" type="underline"  millimeters="false" thickness="3.0" color="15527148" />
+        <val key="SideCommand.sel#fgColor" value="a5cd34" />
+        <font key="SideCommand.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainBlack" family="native:MainBlack" sizeSettings="3" actualSize="3.0" />
+        <val key="SideCommand.sel#marUnit" value="0,2,0,2" />
+        <val key="SideCommand.sel#margin" value="0.0,0.0,1.0,1.0" />
+        <val key="SideCommand.sel#padUnit" value="2,2,2,0" />
+        <val key="SideCommand.sel#padding" value="4.0,4.0,2.0,0.0" />
+        <val key="SideCommand.sel#textDecoration" value="16" />
+        <val key="SideCommand.sel#transparency" value="255" />
+        <val key="SideCommand.textDecoration" value="16" />
+        <val key="SideCommand.transparency" value="255" />
+        <val key="SideNavigationPanel.bgColor" value="ffffff" />
+        <val key="Splash_Txt.align" value="4" />
+        <val key="Splash_Txt.fgColor" value="ffffff" />
+        <font key="Splash_Txt.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="5.0" />
+        <val key="Splash_Txt.padUnit" value="0,2,0,0" />
+        <val key="Splash_Txt.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="Submit_Con_Price.bgColor" value="fff8ca" />
+        <border key="Submit_Con_Price.border" type="line" millimeters="false" thickness="3.0" color="16767404" />
+        <val key="Submit_Con_Price.padUnit" value="2,2,2,2" />
+        <val key="Submit_Con_Price.padding" value="3.0,3.0,3.0,3.0" />
+        <val key="Submit_Con_Price.transparency" value="255" />
+        <val key="Tab.align" value="4" />
+        <val key="Tab.bgColor" value="ffffff" />
+        <border key="Tab.border" type="empty" />
+        <val key="Tab.dis#align" value="4" />
+        <val key="Tab.dis#bgColor" value="ffffff" />
+        <border key="Tab.dis#border" type="empty" />
+        <val key="Tab.dis#fgColor" value="3c4646" />
+        <font key="Tab.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="Tab.dis#marUnit" value="0,2,2,2" />
+        <val key="Tab.dis#margin" value="0.0,1.0,1.0,1.0" />
+        <val key="Tab.dis#padUnit" value="0,2,0,2" />
+        <val key="Tab.dis#padding" value="0.0,0.0,0.0,2.0" />
+        <val key="Tab.dis#transparency" value="0" />
+        <val key="Tab.fgColor" value="3c4646" />
+        <font key="Tab.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="Tab.marUnit" value="0,2,2,2" />
+        <val key="Tab.margin" value="0.0,1.0,1.0,1.0" />
+        <val key="Tab.padUnit" value="0,2,0,2" />
+        <val key="Tab.padding" value="0.0,0.0,0.0,2.0" />
+        <val key="Tab.press#align" value="4" />
+        <val key="Tab.press#bgColor" value="ffffff" />
+        <border key="Tab.press#border" type="empty" />
+        <val key="Tab.press#fgColor" value="3c4646" />
+        <font key="Tab.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="Tab.press#marUnit" value="0,2,2,2" />
+        <val key="Tab.press#margin" value="0.0,1.0,1.0,1.0" />
+        <val key="Tab.press#padUnit" value="0,2,0,2" />
+        <val key="Tab.press#padding" value="0.0,0.0,0.0,2.0" />
+        <val key="Tab.press#transparency" value="0" />
+        <val key="Tab.sel#align" value="4" />
+        <val key="Tab.sel#bgColor" value="ffffff" />
+        <border key="Tab.sel#border" type="empty" />
+        <val key="Tab.sel#fgColor" value="3c4646" />
+        <font key="Tab.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="Tab.sel#marUnit" value="0,2,2,2" />
+        <val key="Tab.sel#margin" value="0.0,1.0,1.0,1.0" />
+        <val key="Tab.sel#padUnit" value="0,2,0,2" />
+        <val key="Tab.sel#padding" value="0.0,0.0,0.0,2.0" />
+        <val key="Tab.sel#transparency" value="0" />
+        <val key="Tab.transparency" value="0" />
+        <val key="TabbedPane.bgColor" value="fff8ca" />
+        <border key="TabbedPane.border" type="line" millimeters="false" thickness="3.0" color="16767404" />
+        <val key="TabbedPane.padUnit" value="2,2,2,2" />
+        <val key="TabbedPane.padding" value="3.0,3.0,3.0,3.0" />
+        <val key="TabbedPane.transparency" value="255" />
+        <val key="Tabs.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Tabs.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="TabsContainer.padUnit" value="2,0,0,0" />
+        <val key="TabsContainer.padding" value="2.0,0.0,0.0,0.0" />
+        <val key="TextArea.align" value="1" />
+        <val key="TextArea.bgColor" value="ffffff" />
+        <border key="TextArea.border" type="line" millimeters="false" thickness="3.0" color="15527148" />
+        <val key="TextArea.dis#align" value="1" />
+        <val key="TextArea.dis#bgColor" value="ffffff" />
+        <border key="TextArea.dis#border" type="line" millimeters="false" thickness="3.0" color="15527148" />
+        <val key="TextArea.dis#fgColor" value="0" />
+        <font key="TextArea.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="TextArea.dis#transparency" value="255" />
+        <val key="TextArea.fgColor" value="0" />
+        <font key="TextArea.font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="TextArea.press#align" value="1" />
+        <val key="TextArea.press#bgColor" value="ffffff" />
+        <border key="TextArea.press#border" type="line" millimeters="false" thickness="3.0" color="15527148" />
+        <val key="TextArea.press#fgColor" value="0" />
+        <font key="TextArea.press#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="TextArea.press#transparency" value="255" />
+        <val key="TextArea.sel#align" value="1" />
+        <val key="TextArea.sel#bgColor" value="ffffff" />
+        <border key="TextArea.sel#border" type="line" millimeters="false" thickness="3.0" color="15527148" />
+        <val key="TextArea.sel#fgColor" value="0" />
+        <font key="TextArea.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="TextArea.sel#transparency" value="255" />
+        <val key="TextArea.transparency" value="255" />
+        <val key="TextField.align" value="1" />
+        <val key="TextField.bgColor" value="ffffff" />
+        <border key="TextField.border" type="line" millimeters="false" thickness="1.0" color="12827322" />
+        <val key="TextField.dis#align" value="1" />
+        <val key="TextField.dis#bgColor" value="ffffff" />
+        <border key="TextField.dis#border" type="line" millimeters="false" thickness="1.0" color="12827322" />
+        <val key="TextField.dis#fgColor" value="0" />
+        <font key="TextField.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="TextField.dis#transparency" value="255" />
+        <val key="TextField.fgColor" value="0" />
+        <font key="TextField.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="TextField.press#align" value="1" />
+        <val key="TextField.press#bgColor" value="ffffff" />
+        <border key="TextField.press#border" type="line" millimeters="false" thickness="1.0" color="12827322" />
+        <val key="TextField.press#fgColor" value="0" />
+        <font key="TextField.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="TextField.press#transparency" value="255" />
+        <val key="TextField.sel#align" value="1" />
+        <val key="TextField.sel#bgColor" value="ffffff" />
+        <border key="TextField.sel#border" type="line" millimeters="false" thickness="1.0" color="12827322" />
+        <val key="TextField.sel#fgColor" value="0" />
+        <font key="TextField.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="TextField.sel#transparency" value="255" />
+        <val key="TextField.transparency" value="255" />
+        <val key="TextHint.align" value="1" />
+        <font key="TextHint.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="1.5" />
+        <val key="TextHint.padUnit" value="0,2,0,2" />
+        <val key="TextHint.padding" value="0.0,0.0,2.0,0.0" />
+        <val key="TextHintLarge.align" value="1" />
+        <val key="TextHintLarge.fgColor" value="333333" />
+        <font key="TextHintLarge.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="TextHintLarge.padUnit" value="0,2,0,2" />
+        <val key="TextHintLarge.padding" value="0.0,0.0,2.0,0.0" />
+        <val key="Title.fgColor" value="a3cc2e" />
+        <font key="Title.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="4.0" />
+        <val key="Title.textDecoration" value="16" />
+        <val key="TitleArea.align" value="4" />
+        <val key="TitleArea.bgColor" value="ffffff" />
+        <border key="TitleArea.border" type="empty" />
+        <val key="TitleArea.fgColor" value="a3cc2e" />
+        <font key="TitleArea.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="4.0" />
+        <val key="TitleArea.transparency" value="255" />
+        <val key="TitleCommand.dis#fgColor" value="5e9007" />
+        <val key="TitleCommand.fgColor" value="5e9007" />
+        <val key="TitleCommand.press#fgColor" value="5e9007" />
+        <val key="TitleCommand.sel#fgColor" value="5e9007" />
+        <val key="ToastBar.align" value="4" />
+        <val key="ToastBar.bgColor" value="242e1c" />
+        <border key="ToastBar.border" type="round" roundBorderColor="2371100" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="ToastBar.dis#align" value="4" />
+        <val key="ToastBar.dis#bgColor" value="242e1c" />
+        <border key="ToastBar.dis#border" type="round" roundBorderColor="2371100" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="ToastBar.dis#fgColor" value="ffffff" />
+        <font key="ToastBar.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="ToastBar.dis#marUnit" value="2,2,2,2" />
+        <val key="ToastBar.dis#margin" value="0.0,2.0,1.0,1.0" />
+        <val key="ToastBar.dis#padUnit" value="2,2,2,2" />
+        <val key="ToastBar.dis#padding" value="2.0,1.0,1.0,1.0" />
+        <val key="ToastBar.dis#transparency" value="200" />
+        <val key="ToastBar.fgColor" value="ffffff" />
+        <font key="ToastBar.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="ToastBar.marUnit" value="2,2,2,2" />
+        <val key="ToastBar.margin" value="0.0,2.0,1.0,1.0" />
+        <val key="ToastBar.padUnit" value="2,2,2,2" />
+        <val key="ToastBar.padding" value="2.0,1.0,1.0,1.0" />
+        <val key="ToastBar.press#align" value="4" />
+        <val key="ToastBar.press#bgColor" value="242e1c" />
+        <border key="ToastBar.press#border" type="round" roundBorderColor="2371100" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="ToastBar.press#fgColor" value="ffffff" />
+        <font key="ToastBar.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="ToastBar.press#marUnit" value="2,2,2,2" />
+        <val key="ToastBar.press#margin" value="0.0,2.0,1.0,1.0" />
+        <val key="ToastBar.press#padUnit" value="2,2,2,2" />
+        <val key="ToastBar.press#padding" value="2.0,1.0,1.0,1.0" />
+        <val key="ToastBar.press#transparency" value="200" />
+        <val key="ToastBar.sel#align" value="4" />
+        <val key="ToastBar.sel#bgColor" value="242e1c" />
+        <border key="ToastBar.sel#border" type="round" roundBorderColor="2371100" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="ToastBar.sel#fgColor" value="ffffff" />
+        <font key="ToastBar.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="ToastBar.sel#marUnit" value="2,2,2,2" />
+        <val key="ToastBar.sel#margin" value="0.0,2.0,1.0,1.0" />
+        <val key="ToastBar.sel#padUnit" value="2,2,2,2" />
+        <val key="ToastBar.sel#padding" value="2.0,1.0,1.0,1.0" />
+        <val key="ToastBar.sel#transparency" value="200" />
+        <val key="ToastBar.transparency" value="200" />
+        <val key="ToastBarMessage.align" value="4" />
+        <val key="ToastBarMessage.fgColor" value="ffffff" />
+        <font key="ToastBarMessage.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="White_Con.bgColor" value="ffffff" />
+        <border key="White_Con.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="7.0" bezierCorners="false" />
+        <val key="White_Con.marUnit" value="2,2,2,2" />
+        <val key="White_Con.margin" value="2.0,2.0,2.0,2.0" />
+        <val key="White_Con.padUnit" value="2,2,2,2" />
+        <val key="White_Con.padding" value="1.0,1.0,1.0,1.0" />
+        <val key="White_Con.transparency" value="255" />
+        <val key="YallaGym.bgImage" value="Logo---Crop.png" />
+        <val key="YallaGym.bgType" value="1" />
+        <border key="YallaGym.border" type="empty" />
+        <val key="YallaGym.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="YallaGym.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="YallaGym.transparency" value="0" />
+        <border key="blue_rec.border" type="line" millimeters="false" thickness="2.0" color="45567" />
+        <border key="blue_rec.dis#border" type="line" millimeters="false" thickness="2.0" color="45567" />
+        <val key="blue_rec.dis#fgColor" value="405721" />
+        <font key="blue_rec.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.0" />
+        <val key="blue_rec.dis#marUnit" value="2,2,2,2" />
+        <val key="blue_rec.dis#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="blue_rec.fgColor" value="405721" />
+        <font key="blue_rec.font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.0" />
+        <val key="blue_rec.marUnit" value="2,2,2,2" />
+        <val key="blue_rec.margin" value="1.0,1.0,1.0,1.0" />
+        <border key="blue_rec.press#border" type="line" millimeters="false" thickness="2.0" color="45567" />
+        <val key="blue_rec.press#fgColor" value="405721" />
+        <font key="blue_rec.press#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.0" />
+        <val key="blue_rec.press#marUnit" value="2,2,2,2" />
+        <val key="blue_rec.press#margin" value="1.0,1.0,1.0,1.0" />
+        <border key="blue_rec.sel#border" type="line" millimeters="false" thickness="2.0" color="45567" />
+        <val key="blue_rec.sel#fgColor" value="405721" />
+        <font key="blue_rec.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.0" />
+        <val key="blue_rec.sel#marUnit" value="2,2,2,2" />
+        <val key="blue_rec.sel#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="btn_cancel.align" value="4" />
+        <val key="btn_cancel.bgColor" value="c90000" />
+        <border key="btn_cancel.border" type="line" millimeters="false" thickness="3.0" color="16724787" />
+        <val key="btn_cancel.dis#align" value="4" />
+        <val key="btn_cancel.dis#bgColor" value="c90000" />
+        <border key="btn_cancel.dis#border" type="line" millimeters="false" thickness="3.0" color="16724787" />
+        <val key="btn_cancel.dis#fgColor" value="ffffff" />
+        <font key="btn_cancel.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_cancel.dis#transparency" value="255" />
+        <val key="btn_cancel.fgColor" value="ffffff" />
+        <font key="btn_cancel.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_cancel.press#align" value="4" />
+        <val key="btn_cancel.press#bgColor" value="c90000" />
+        <border key="btn_cancel.press#border" type="line" millimeters="false" thickness="3.0" color="16724787" />
+        <val key="btn_cancel.press#fgColor" value="ffffff" />
+        <font key="btn_cancel.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_cancel.press#transparency" value="255" />
+        <val key="btn_cancel.sel#align" value="4" />
+        <val key="btn_cancel.sel#bgColor" value="c90000" />
+        <border key="btn_cancel.sel#border" type="line" millimeters="false" thickness="3.0" color="16724787" />
+        <val key="btn_cancel.sel#fgColor" value="ffffff" />
+        <font key="btn_cancel.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_cancel.sel#transparency" value="255" />
+        <val key="btn_cancel.transparency" value="255" />
+        <val key="btn_circular_green.align" value="4" />
+        <val key="btn_circular_green.bgColor" value="609504" />
+        <border key="btn_circular_green.border" type="round" roundBorderColor="6329604" opacity="255" strokeColor="5406976" strokeOpacity="255" strokeThickness="1.0" strokeMM="true" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="btn_circular_green.dis#align" value="4" />
+        <val key="btn_circular_green.dis#bgColor" value="609504" />
+        <border key="btn_circular_green.dis#border" type="round" roundBorderColor="5406976" opacity="255" strokeColor="5406976" strokeOpacity="255" strokeThickness="1.0" strokeMM="true" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="btn_circular_green.dis#fgColor" value="ffffff" />
+        <font key="btn_circular_green.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_circular_green.dis#transparency" value="255" />
+        <val key="btn_circular_green.fgColor" value="ffffff" />
+        <font key="btn_circular_green.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_circular_green.press#align" value="4" />
+        <val key="btn_circular_green.press#bgColor" value="609504" />
+        <border key="btn_circular_green.press#border" type="round" roundBorderColor="5406976" opacity="255" strokeColor="5406976" strokeOpacity="255" strokeThickness="1.0" strokeMM="true" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="btn_circular_green.press#fgColor" value="ffffff" />
+        <font key="btn_circular_green.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_circular_green.press#transparency" value="255" />
+        <val key="btn_circular_green.sel#align" value="4" />
+        <val key="btn_circular_green.sel#bgColor" value="609504" />
+        <border key="btn_circular_green.sel#border" type="round" roundBorderColor="5406976" opacity="255" strokeColor="5406976" strokeOpacity="255" strokeThickness="1.0" strokeMM="true" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="btn_circular_green.sel#fgColor" value="ffffff" />
+        <font key="btn_circular_green.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_circular_green.sel#transparency" value="255" />
+        <val key="btn_circular_green.transparency" value="255" />
+        <val key="btn_get_red.align" value="4" />
+        <val key="btn_get_red.bgImage" value="btn_red.png" />
+        <val key="btn_get_red.bgType" value="1" />
+        <val key="btn_get_red.fgColor" value="ffffff" />
+        <font key="btn_get_red.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_get_red.marUnit" value="2,2,2,2" />
+        <val key="btn_get_red.margin" value="1.0,1.0,0.0,0.0" />
+        <val key="btn_get_red.press#align" value="4" />
+        <val key="btn_get_red.press#bgImage" value="btn_red.png" />
+        <val key="btn_get_red.press#bgType" value="1" />
+        <val key="btn_get_red.press#fgColor" value="ffffff" />
+        <font key="btn_get_red.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_get_red.press#marUnit" value="2,2,2,2" />
+        <val key="btn_get_red.press#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="btn_get_red.sel#align" value="4" />
+        <val key="btn_get_red.sel#bgImage" value="btn_red.png" />
+        <val key="btn_get_red.sel#bgType" value="1" />
+        <val key="btn_get_red.sel#fgColor" value="ffffff" />
+        <font key="btn_get_red.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_get_red.sel#marUnit" value="2,2,2,2" />
+        <val key="btn_get_red.sel#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="btn_get_started.align" value="4" />
+        <val key="btn_get_started.bgImage" value="btn_green.png" />
+        <val key="btn_get_started.bgType" value="1" />
+        <val key="btn_get_started.dis#align" value="4" />
+        <val key="btn_get_started.dis#bgImage" value="btn_green.png" />
+        <val key="btn_get_started.dis#bgType" value="1" />
+        <val key="btn_get_started.dis#fgColor" value="ffffff" />
+        <font key="btn_get_started.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_get_started.dis#marUnit" value="2,2,2,2" />
+        <val key="btn_get_started.dis#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="btn_get_started.fgColor" value="ffffff" />
+        <font key="btn_get_started.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_get_started.marUnit" value="2,2,2,2" />
+        <val key="btn_get_started.margin" value="1.0,1.0,0.0,0.0" />
+        <val key="btn_get_started.press#align" value="4" />
+        <val key="btn_get_started.press#bgImage" value="btn_green.png" />
+        <val key="btn_get_started.press#bgType" value="1" />
+        <val key="btn_get_started.press#fgColor" value="ffffff" />
+        <font key="btn_get_started.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_get_started.press#marUnit" value="2,2,2,2" />
+        <val key="btn_get_started.press#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="btn_get_started.sel#align" value="4" />
+        <val key="btn_get_started.sel#bgImage" value="btn_green.png" />
+        <val key="btn_get_started.sel#bgType" value="1" />
+        <val key="btn_get_started.sel#fgColor" value="ffffff" />
+        <font key="btn_get_started.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_get_started.sel#marUnit" value="2,2,2,2" />
+        <val key="btn_get_started.sel#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="btn_get_yellow.align" value="4" />
+        <val key="btn_get_yellow.bgImage" value="Book_Now_Button.png" />
+        <val key="btn_get_yellow.bgType" value="1" />
+        <val key="btn_get_yellow.dis#align" value="4" />
+        <val key="btn_get_yellow.dis#bgImage" value="Book_Now_Button.png" />
+        <val key="btn_get_yellow.dis#bgType" value="1" />
+        <val key="btn_get_yellow.dis#fgColor" value="ffffff" />
+        <font key="btn_get_yellow.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_get_yellow.dis#marUnit" value="2,2,2,2" />
+        <val key="btn_get_yellow.dis#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="btn_get_yellow.fgColor" value="ffffff" />
+        <font key="btn_get_yellow.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_get_yellow.marUnit" value="2,2,2,2" />
+        <val key="btn_get_yellow.margin" value="1.0,1.0,0.0,0.0" />
+        <val key="btn_get_yellow.press#align" value="4" />
+        <val key="btn_get_yellow.press#bgImage" value="Book_Now_Button.png" />
+        <val key="btn_get_yellow.press#bgType" value="1" />
+        <val key="btn_get_yellow.press#fgColor" value="ffffff" />
+        <font key="btn_get_yellow.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_get_yellow.press#marUnit" value="2,2,2,2" />
+        <val key="btn_get_yellow.press#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="btn_get_yellow.sel#align" value="4" />
+        <val key="btn_get_yellow.sel#bgImage" value="Book_Now_Button.png" />
+        <val key="btn_get_yellow.sel#bgType" value="1" />
+        <val key="btn_get_yellow.sel#fgColor" value="ffffff" />
+        <font key="btn_get_yellow.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_get_yellow.sel#marUnit" value="2,2,2,2" />
+        <val key="btn_get_yellow.sel#margin" value="1.0,1.0,0.0,0.0" />
+        <val key="btn_like_amazon.align" value="4" />
+        <gradient key="btn_like_amazon.bgGradient" color1="16694633" color2="16750848" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="btn_like_amazon.bgType" value="6" />
+        <val key="btn_like_amazon.dis#align" value="4" />
+        <gradient key="btn_like_amazon.dis#bgGradient" color1="16691301" color2="16747008" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="btn_like_amazon.dis#bgType" value="6" />
+        <val key="btn_like_amazon.dis#fgColor" value="ffffff" />
+        <font key="btn_like_amazon.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_like_amazon.fgColor" value="ffffff" />
+        <font key="btn_like_amazon.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_like_amazon.press#align" value="4" />
+        <gradient key="btn_like_amazon.press#bgGradient" color1="16691301" color2="16747008" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="btn_like_amazon.press#bgType" value="6" />
+        <val key="btn_like_amazon.press#fgColor" value="ffffff" />
+        <font key="btn_like_amazon.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_like_amazon.sel#align" value="4" />
+        <gradient key="btn_like_amazon.sel#bgGradient" color1="16691301" color2="16747008" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="btn_like_amazon.sel#bgType" value="6" />
+        <val key="btn_like_amazon.sel#fgColor" value="ffffff" />
+        <font key="btn_like_amazon.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="btn_ronded_white.align" value="4" />
+        <val key="btn_ronded_white.bgColor" value="ffffff" />
+        <border key="btn_ronded_white.border" type="round" roundBorderColor="16777215" opacity="255" strokeColor="3950150" strokeOpacity="255" strokeThickness="2.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="btn_ronded_white.dis#align" value="4" />
+        <val key="btn_ronded_white.dis#bgColor" value="ffffff" />
+        <border key="btn_ronded_white.dis#border" type="round" roundBorderColor="16777215" opacity="255" strokeColor="3950150" strokeOpacity="255" strokeThickness="2.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="btn_ronded_white.dis#fgColor" value="3c4646" />
+        <font key="btn_ronded_white.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="btn_ronded_white.dis#marUnit" value="2,2,2,2" />
+        <val key="btn_ronded_white.dis#margin" value="0.0,2.0,1.0,1.0" />
+        <val key="btn_ronded_white.dis#padUnit" value="2,2,2,2" />
+        <val key="btn_ronded_white.dis#padding" value="2.0,1.0,1.0,1.0" />
+        <val key="btn_ronded_white.dis#transparency" value="200" />
+        <val key="btn_ronded_white.fgColor" value="3c4646" />
+        <font key="btn_ronded_white.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="btn_ronded_white.marUnit" value="2,2,2,2" />
+        <val key="btn_ronded_white.margin" value="0.0,2.0,1.0,1.0" />
+        <val key="btn_ronded_white.padUnit" value="2,2,2,2" />
+        <val key="btn_ronded_white.padding" value="2.0,1.0,1.0,1.0" />
+        <val key="btn_ronded_white.press#align" value="4" />
+        <val key="btn_ronded_white.press#bgColor" value="ffffff" />
+        <border key="btn_ronded_white.press#border" type="round" roundBorderColor="16777215" opacity="255" strokeColor="3950150" strokeOpacity="255" strokeThickness="2.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="btn_ronded_white.press#fgColor" value="3c4646" />
+        <font key="btn_ronded_white.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="btn_ronded_white.press#marUnit" value="2,2,2,2" />
+        <val key="btn_ronded_white.press#margin" value="0.0,2.0,1.0,1.0" />
+        <val key="btn_ronded_white.press#padUnit" value="2,2,2,2" />
+        <val key="btn_ronded_white.press#padding" value="2.0,1.0,1.0,1.0" />
+        <val key="btn_ronded_white.press#transparency" value="200" />
+        <val key="btn_ronded_white.sel#align" value="4" />
+        <val key="btn_ronded_white.sel#bgColor" value="ffffff" />
+        <border key="btn_ronded_white.sel#border" type="round" roundBorderColor="16777215" opacity="255" strokeColor="3950150" strokeOpacity="255" strokeThickness="2.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="btn_ronded_white.sel#fgColor" value="3c4646" />
+        <font key="btn_ronded_white.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="btn_ronded_white.sel#marUnit" value="2,2,2,2" />
+        <val key="btn_ronded_white.sel#margin" value="0.0,2.0,1.0,1.0" />
+        <val key="btn_ronded_white.sel#padUnit" value="2,2,2,2" />
+        <val key="btn_ronded_white.sel#padding" value="2.0,1.0,1.0,1.0" />
+        <val key="btn_ronded_white.sel#transparency" value="200" />
+        <val key="btn_ronded_white.transparency" value="200" />
+        <val key="btn_select.align" value="4" />
+        <val key="btn_select.bgColor" value="609504" />
+        <border key="btn_select.border" type="underline"  millimeters="false" thickness="3.0" color="5406976" />
+        <val key="btn_select.dis#align" value="4" />
+        <val key="btn_select.dis#bgColor" value="528100" />
+        <border key="btn_select.dis#border" type="underline"  millimeters="false" thickness="3.0" color="5406976" />
+        <val key="btn_select.dis#fgColor" value="ffffff" />
+        <font key="btn_select.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="4.0" />
+        <val key="btn_select.dis#transparency" value="255" />
+        <val key="btn_select.fgColor" value="ffffff" />
+        <font key="btn_select.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="4.0" />
+        <val key="btn_select.press#align" value="4" />
+        <val key="btn_select.press#bgColor" value="528100" />
+        <border key="btn_select.press#border" type="underline"  millimeters="false" thickness="3.0" color="5406976" />
+        <val key="btn_select.press#fgColor" value="ffffff" />
+        <font key="btn_select.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="4.0" />
+        <val key="btn_select.press#transparency" value="255" />
+        <val key="btn_select.sel#align" value="4" />
+        <val key="btn_select.sel#bgColor" value="528100" />
+        <border key="btn_select.sel#border" type="underline"  millimeters="false" thickness="3.0" color="5406976" />
+        <val key="btn_select.sel#fgColor" value="ffffff" />
+        <font key="btn_select.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="4.0" />
+        <val key="btn_select.sel#transparency" value="255" />
+        <val key="btn_select.transparency" value="255" />
+        <val key="card_lbl_txt.align" value="4" />
+        <val key="card_lbl_txt.fgColor" value="e47911" />
+        <font key="card_lbl_txt.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="card_lbl_txt.padUnit" value="1,1,1,1" />
+        <val key="card_lbl_txt.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="client_details_sb_green.bgColor" value="0" />
+        <border key="client_details_sb_green.border" type="empty" />
+        <val key="client_details_sb_green.fgColor" value="405721" />
+        <font key="client_details_sb_green.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="client_details_sb_green.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="client_details_sb_green.padUnit" value="2,2,2,2" />
+        <val key="client_details_sb_green.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="client_details_sb_green.transparency" value="0" />
+        <val key="client_lbl_details_order_status_accepted.align" value="4" />
+        <val key="client_lbl_details_order_status_accepted.bgColor" value="e99b35" />
+        <border key="client_lbl_details_order_status_accepted.border" type="round" roundBorderColor="10734638" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="client_lbl_details_order_status_accepted.fgColor" value="2c3b00" />
+        <font key="client_lbl_details_order_status_accepted.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="client_lbl_details_order_status_accepted.marUnit" value="2,2,2,2" />
+        <val key="client_lbl_details_order_status_accepted.margin" value="0.0,2.0,1.0,1.0" />
+        <val key="client_lbl_details_order_status_accepted.padUnit" value="2,2,2,2" />
+        <val key="client_lbl_details_order_status_accepted.padding" value="2.0,1.0,1.0,1.0" />
+        <val key="client_lbl_details_order_status_accepted.transparency" value="200" />
+        <val key="client_lbl_details_order_status_onhold.align" value="4" />
+        <val key="client_lbl_details_order_status_onhold.bgColor" value="e99b35" />
+        <border key="client_lbl_details_order_status_onhold.border" type="round" roundBorderColor="15309621" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="client_lbl_details_order_status_onhold.fgColor" value="2c3b00" />
+        <font key="client_lbl_details_order_status_onhold.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="client_lbl_details_order_status_onhold.marUnit" value="2,2,2,2" />
+        <val key="client_lbl_details_order_status_onhold.margin" value="0.0,2.0,1.0,1.0" />
+        <val key="client_lbl_details_order_status_onhold.padUnit" value="2,2,2,2" />
+        <val key="client_lbl_details_order_status_onhold.padding" value="2.0,1.0,1.0,1.0" />
+        <val key="client_lbl_details_order_status_onhold.transparency" value="200" />
+        <val key="client_lbl_details_order_status_rejected.align" value="4" />
+        <val key="client_lbl_details_order_status_rejected.bgColor" value="e99b35" />
+        <border key="client_lbl_details_order_status_rejected.border" type="round" roundBorderColor="13172736" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="client_lbl_details_order_status_rejected.fgColor" value="ffffff" />
+        <font key="client_lbl_details_order_status_rejected.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="client_lbl_details_order_status_rejected.marUnit" value="2,2,2,2" />
+        <val key="client_lbl_details_order_status_rejected.margin" value="0.0,2.0,1.0,1.0" />
+        <val key="client_lbl_details_order_status_rejected.padUnit" value="2,2,2,2" />
+        <val key="client_lbl_details_order_status_rejected.padding" value="2.0,1.0,1.0,1.0" />
+        <val key="client_lbl_details_order_status_rejected.transparency" value="200" />
+        <val key="client_lbl_details_orders.align" value="4" />
+        <val key="client_lbl_details_orders.fgColor" value="3c4646" />
+        <font key="client_lbl_details_orders.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="club_dlg.align" value="4" />
+        <val key="club_dlg.bgColor" value="3c4646" />
+        <border key="club_dlg.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="20" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="club_dlg.fgColor" value="ffffff" />
+        <val key="club_dlg.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="club_dlg.padUnit" value="2,2,2,2" />
+        <val key="club_dlg.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="club_dlg.transparency" value="255" />
+        <val key="club_dlg_done_sb.align" value="4" />
+        <val key="club_dlg_done_sb.fgColor" value="333333" />
+        <font key="club_dlg_done_sb.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="4.0" />
+        <val key="club_dlg_done_sb.padding" value="0.0,0.0,13.0,13.0" />
+        <val key="club_dlg_done_sb_green.align" value="4" />
+        <val key="club_dlg_done_sb_green.fgColor" value="405721" />
+        <font key="club_dlg_done_sb_green.font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="6.0" />
+        <val key="club_dlg_done_sb_green.padding" value="0.0,0.0,13.0,13.0" />
+        <val key="club_order_con_icons.align" value="4" />
+        <val key="club_order_con_icons.bgColor" value="405721" />
+        <border key="club_order_con_icons.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="20" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="club_order_con_icons.fgColor" value="ffffff" />
+        <val key="club_order_con_icons.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="club_order_con_icons.padUnit" value="2,2,2,2" />
+        <val key="club_order_con_icons.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="club_order_con_icons.transparency" value="255" />
+        <gradient key="club_payment_con_red.bgGradient" color1="16730184" color2="16777215" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="club_payment_con_red.bgType" value="6" />
+        <border key="club_payment_con_red.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="club_payments_details_item_btn.align" value="4" />
+        <val key="club_payments_details_item_btn.bgColor" value="405721" />
+        <border key="club_payments_details_item_btn.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="20" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="3.0" bezierCorners="false" />
+        <val key="club_payments_details_item_btn.fgColor" value="ffffff" />
+        <val key="club_payments_details_item_btn.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="club_payments_details_item_btn.padUnit" value="2,2,2,2" />
+        <val key="club_payments_details_item_btn.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="club_payments_details_item_btn.transparency" value="255" />
+        <val key="club_payments_details_item_con.align" value="4" />
+        <val key="club_payments_details_item_con.bgColor" value="405721" />
+        <gradient key="club_payments_details_item_con.bgGradient" color1="10734638" color2="7575555" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="club_payments_details_item_con.bgType" value="6" />
+        <border key="club_payments_details_item_con.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="0.0" shadowOpacity="20" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="3.0" bezierCorners="false" />
+        <val key="club_payments_details_item_con.fgColor" value="ffffff" />
+        <val key="club_payments_details_item_con.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="club_payments_details_item_con.padUnit" value="2,2,2,2" />
+        <val key="club_payments_details_item_con.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="club_payments_details_item_con.transparency" value="255" />
+        <val key="club_payments_pay_green_btn.align" value="4" />
+        <val key="club_payments_pay_green_btn.bgColor" value="a3cc2e" />
+        <border key="club_payments_pay_green_btn.border" type="round" roundBorderColor="10734638" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="club_payments_pay_green_btn.dis#align" value="4" />
+        <val key="club_payments_pay_green_btn.dis#bgColor" value="a3cc2e" />
+        <border key="club_payments_pay_green_btn.dis#border" type="round" roundBorderColor="10734638" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="club_payments_pay_green_btn.dis#fgColor" value="ffffff" />
+        <font key="club_payments_pay_green_btn.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="club_payments_pay_green_btn.dis#transparency" value="255" />
+        <val key="club_payments_pay_green_btn.fgColor" value="ffffff" />
+        <font key="club_payments_pay_green_btn.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="club_payments_pay_green_btn.press#align" value="4" />
+        <val key="club_payments_pay_green_btn.press#bgColor" value="a3cc2e" />
+        <border key="club_payments_pay_green_btn.press#border" type="round" roundBorderColor="10734638" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="club_payments_pay_green_btn.press#fgColor" value="ffffff" />
+        <font key="club_payments_pay_green_btn.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="club_payments_pay_green_btn.press#transparency" value="255" />
+        <val key="club_payments_pay_green_btn.sel#align" value="4" />
+        <val key="club_payments_pay_green_btn.sel#bgColor" value="a3cc2e" />
+        <border key="club_payments_pay_green_btn.sel#border" type="round" roundBorderColor="10734638" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="club_payments_pay_green_btn.sel#fgColor" value="ffffff" />
+        <font key="club_payments_pay_green_btn.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="club_payments_pay_green_btn.sel#transparency" value="255" />
+        <val key="club_payments_pay_green_btn.transparency" value="255" />
+        <val key="club_payments_pay_red_btn.align" value="4" />
+        <val key="club_payments_pay_red_btn.bgColor" value="c90000" />
+        <border key="club_payments_pay_red_btn.border" type="round" roundBorderColor="13172736" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="club_payments_pay_red_btn.dis#align" value="4" />
+        <val key="club_payments_pay_red_btn.dis#bgColor" value="c90000" />
+        <border key="club_payments_pay_red_btn.dis#border" type="round" roundBorderColor="13172736" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="club_payments_pay_red_btn.dis#fgColor" value="ffffff" />
+        <font key="club_payments_pay_red_btn.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="club_payments_pay_red_btn.dis#transparency" value="255" />
+        <val key="club_payments_pay_red_btn.fgColor" value="ffffff" />
+        <font key="club_payments_pay_red_btn.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="club_payments_pay_red_btn.press#align" value="4" />
+        <val key="club_payments_pay_red_btn.press#bgColor" value="c90000" />
+        <border key="club_payments_pay_red_btn.press#border" type="round" roundBorderColor="13172736" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="club_payments_pay_red_btn.press#fgColor" value="ffffff" />
+        <font key="club_payments_pay_red_btn.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="club_payments_pay_red_btn.press#transparency" value="255" />
+        <val key="club_payments_pay_red_btn.sel#align" value="4" />
+        <val key="club_payments_pay_red_btn.sel#bgColor" value="c90000" />
+        <border key="club_payments_pay_red_btn.sel#border" type="round" roundBorderColor="13172736" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="club_payments_pay_red_btn.sel#fgColor" value="ffffff" />
+        <font key="club_payments_pay_red_btn.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="club_payments_pay_red_btn.sel#transparency" value="255" />
+        <val key="club_payments_pay_red_btn.transparency" value="255" />
+        <val key="club_profile_btn_add_image.align" value="4" />
+        <val key="club_profile_btn_add_image.bgColor" value="0" />
+        <border key="club_profile_btn_add_image.border" type="empty" />
+        <val key="club_profile_btn_add_image.dis#align" value="4" />
+        <val key="club_profile_btn_add_image.dis#bgColor" value="0" />
+        <border key="club_profile_btn_add_image.dis#border" type="empty" />
+        <val key="club_profile_btn_add_image.dis#fgColor" value="ffffff" />
+        <font key="club_profile_btn_add_image.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainThin" family="native:MainThin" sizeSettings="3" actualSize="30.0" />
+        <val key="club_profile_btn_add_image.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="club_profile_btn_add_image.dis#transparency" value="75" />
+        <val key="club_profile_btn_add_image.fgColor" value="ffffff" />
+        <font key="club_profile_btn_add_image.font" type="ttf" face="0" style="0" size="0" name="native:MainThin" family="native:MainThin" sizeSettings="3" actualSize="30.0" />
+        <val key="club_profile_btn_add_image.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="club_profile_btn_add_image.press#align" value="4" />
+        <val key="club_profile_btn_add_image.press#bgColor" value="0" />
+        <border key="club_profile_btn_add_image.press#border" type="empty" />
+        <val key="club_profile_btn_add_image.press#fgColor" value="ffffff" />
+        <font key="club_profile_btn_add_image.press#font" type="ttf" face="0" style="0" size="0" name="native:MainThin" family="native:MainThin" sizeSettings="3" actualSize="30.0" />
+        <val key="club_profile_btn_add_image.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="club_profile_btn_add_image.press#transparency" value="75" />
+        <val key="club_profile_btn_add_image.sel#align" value="4" />
+        <val key="club_profile_btn_add_image.sel#bgColor" value="0" />
+        <border key="club_profile_btn_add_image.sel#border" type="empty" />
+        <val key="club_profile_btn_add_image.sel#fgColor" value="ffffff" />
+        <font key="club_profile_btn_add_image.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainThin" family="native:MainThin" sizeSettings="3" actualSize="30.0" />
+        <val key="club_profile_btn_add_image.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="club_profile_btn_add_image.sel#transparency" value="75" />
+        <val key="club_profile_btn_add_image.transparency" value="75" />
+        <val key="club_profile_img_camera.align" value="4" />
+        <val key="club_profile_img_camera.fgColor" value="ffffff" />
+        <font key="club_profile_img_camera.font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.0" />
+        <val key="club_profile_img_delete.align" value="4" />
+        <val key="club_profile_img_delete.fgColor" value="fb4343" />
+        <font key="club_profile_img_delete.font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.0" />
+        <gradient key="club_qr_con_first.bgGradient" color1="16777215" color2="16750365" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="club_qr_con_first.bgType" value="6" />
+        <border key="club_qr_con_first.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="6.0" bezierCorners="false" />
+        <gradient key="club_qr_con_first_green.bgGradient" color1="16777215" color2="13434777" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="club_qr_con_first_green.bgType" value="6" />
+        <border key="club_qr_con_first_green.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="6.0" bezierCorners="false" />
+        <val key="con_input.align" value="4" />
+        <val key="con_input.bgColor" value="ffffff" />
+        <border key="con_input.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="con_input.dis#align" value="4" />
+        <val key="con_input.dis#bgColor" value="ffffff" />
+        <border key="con_input.dis#border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="con_input.dis#fgColor" value="9bb4b1" />
+        <font key="con_input.dis#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="con_input.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="con_input.dis#padUnit" value="2,2,2,2" />
+        <val key="con_input.dis#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="con_input.dis#transparency" value="255" />
+        <val key="con_input.fgColor" value="333333" />
+        <font key="con_input.font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="con_input.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="con_input.padUnit" value="2,2,2,2" />
+        <val key="con_input.padding" value="2.0,2.0,2.0,2.0" />
+        <val key="con_input.press#align" value="4" />
+        <val key="con_input.press#bgColor" value="ffffff" />
+        <border key="con_input.press#border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="con_input.press#fgColor" value="9bb4b1" />
+        <font key="con_input.press#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="con_input.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="con_input.press#padUnit" value="2,2,2,2" />
+        <val key="con_input.press#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="con_input.press#transparency" value="255" />
+        <val key="con_input.sel#align" value="4" />
+        <val key="con_input.sel#bgColor" value="ffffff" />
+        <border key="con_input.sel#border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="con_input.sel#fgColor" value="9bb4b1" />
+        <font key="con_input.sel#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="2.5" />
+        <val key="con_input.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="con_input.sel#padUnit" value="2,2,2,2" />
+        <val key="con_input.sel#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="con_input.sel#transparency" value="255" />
+        <val key="con_input.transparency" value="255" />
+        <val key="con_terms.bgColor" value="ffffff" />
+        <border key="con_terms.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="8.0" bezierCorners="false" />
+        <val key="con_terms.marUnit" value="0,2,0,2" />
+        <val key="con_terms.margin" value="0.0,0.0,2.0,2.0" />
+        <val key="con_terms.transparency" value="255" />
+        <val key="datePicker.align" value="4" />
+        <border key="datePicker.border" type="line" millimeters="false" thickness="1.0" color="4216609" />
+        <val key="datePicker.dis#align" value="4" />
+        <border key="datePicker.dis#border" type="line" millimeters="false" thickness="1.0" color="4216609" />
+        <val key="datePicker.dis#fgColor" value="405721" />
+        <font key="datePicker.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="datePicker.fgColor" value="405721" />
+        <font key="datePicker.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="datePicker.press#align" value="4" />
+        <border key="datePicker.press#border" type="line" millimeters="false" thickness="1.0" color="4216609" />
+        <val key="datePicker.press#fgColor" value="405721" />
+        <font key="datePicker.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="datePicker.sel#align" value="4" />
+        <border key="datePicker.sel#border" type="line" millimeters="false" thickness="1.0" color="4216609" />
+        <val key="datePicker.sel#fgColor" value="405721" />
+        <font key="datePicker.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="fab.align" value="4" />
+        <val key="fab.bgImage" value="ic_fab.png" />
+        <val key="fab.bgType" value="1" />
+        <val key="fab.dis#align" value="4" />
+        <border key="fab.dis#border" type="round" roundBorderColor="0" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="3" shadowOpacity="20" shadowX="0.5" shadowY="0.0" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="fab.dis#fgColor" value="ffffff" />
+        <val key="fab.fgColor" value="ffffff" />
+        <font key="fab.font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="1" actualSize="12.0" />
+        <val key="ic_fab.align" value="4" />
+        <border key="ic_fab.border" type="round" roundBorderColor="3950150" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="1" shadowOpacity="10" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="ic_fab.dis#align" value="4" />
+        <border key="ic_fab.dis#border" type="round" roundBorderColor="3950150" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="1" shadowOpacity="10" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="ic_fab.dis#fgColor" value="92ff65" />
+        <font key="ic_fab.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainBlack" family="native:MainBlack" sizeSettings="3" actualSize="2.0" />
+        <val key="ic_fab.fgColor" value="92ff65" />
+        <font key="ic_fab.font" type="ttf" face="0" style="0" size="0" name="native:MainBlack" family="native:MainBlack" sizeSettings="3" actualSize="2.0" />
+        <val key="ic_fab.press#align" value="4" />
+        <border key="ic_fab.press#border" type="round" roundBorderColor="3950150" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="1" shadowOpacity="10" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="ic_fab.press#fgColor" value="92ff65" />
+        <font key="ic_fab.press#font" type="ttf" face="0" style="0" size="0" name="native:MainBlack" family="native:MainBlack" sizeSettings="3" actualSize="2.0" />
+        <val key="ic_fab.sel#align" value="4" />
+        <border key="ic_fab.sel#border" type="round" roundBorderColor="3950150" opacity="255" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="1" shadowOpacity="10" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="ic_fab.sel#fgColor" value="92ff65" />
+        <font key="ic_fab.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainBlack" family="native:MainBlack" sizeSettings="3" actualSize="2.0" />
+        <val key="icons_yellow_light.fgColor" value="528100" />
+        <val key="lbl_white.align" value="4" />
+        <val key="lbl_white.fgColor" value="ffffff" />
+        <font key="lbl_white.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="list_Con.bgColor" value="242e1c" />
+        <border key="list_Con.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="2.0" shadowOpacity="20" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="list_Con.padUnit" value="2,2,2,2" />
+        <val key="list_Con.padding" value="2.0,2.0,2.0,2.0" />
+        <val key="list_Con.transparency" value="255" />
+        <val key="list_con_sub1_gray.bgColor" value="ffffff" />
+        <border key="list_con_sub1_gray.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="10.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="list_con_sub1_gray.marUnit" value="2,2,2,2" />
+        <val key="list_con_sub1_gray.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="list_con_sub1_gray.transparency" value="255" />
+        <val key="list_con_sub1_yellow.bgColor" value="f7ed23" />
+        <border key="list_con_sub1_yellow.border" type="roundRect" strokeColor="0" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="4.0" shadowOpacity="255" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="list_con_sub1_yellow.marUnit" value="2,2,2,2" />
+        <val key="list_con_sub1_yellow.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="list_con_sub1_yellow.transparency" value="255" />
+        <val key="list_lbl_price.align" value="4" />
+        <val key="list_lbl_price.fgColor" value="ffffff" />
+        <font key="list_lbl_price.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.0" />
+        <val key="login_btn.align" value="4" />
+        <val key="login_btn.dis#align" value="4" />
+        <val key="login_btn.dis#fgColor" value="ffffff" />
+        <font key="login_btn.dis#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="3.0" />
+        <val key="login_btn.fgColor" value="ffffff" />
+        <font key="login_btn.font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="3.0" />
+        <val key="login_btn.press#align" value="4" />
+        <val key="login_btn.press#fgColor" value="ffffff" />
+        <font key="login_btn.press#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="3.0" />
+        <val key="login_btn.sel#align" value="4" />
+        <val key="login_btn.sel#fgColor" value="ffffff" />
+        <font key="login_btn.sel#font" type="ttf" face="0" style="0" size="0" name="Roboto-Bold.ttf" family="Roboto-Bold" sizeSettings="3" actualSize="3.0" />
+        <val key="radio_btn_green_bold.dis#fgColor" value="405721" />
+        <font key="radio_btn_green_bold.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.0" />
+        <val key="radio_btn_green_bold.fgColor" value="405721" />
+        <font key="radio_btn_green_bold.font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.0" />
+        <val key="radio_btn_green_bold.press#fgColor" value="405721" />
+        <font key="radio_btn_green_bold.press#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.0" />
+        <val key="radio_btn_green_bold.sel#fgColor" value="405721" />
+        <font key="radio_btn_green_bold.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.0" />
+        <val key="sb_center_white.align" value="4" />
+        <val key="sb_center_white.dis#align" value="4" />
+        <val key="sb_center_white.dis#fgColor" value="ffffff" />
+        <font key="sb_center_white.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.0" />
+        <val key="sb_center_white.fgColor" value="ffffff" />
+        <font key="sb_center_white.font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.0" />
+        <val key="sb_center_white.press#align" value="4" />
+        <val key="sb_center_white.press#fgColor" value="ffffff" />
+        <font key="sb_center_white.press#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.0" />
+        <val key="sb_center_white.sel#align" value="4" />
+        <val key="sb_center_white.sel#fgColor" value="ffffff" />
+        <font key="sb_center_white.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="3.0" />
+        <val key="search_input.align" value="1" />
+        <val key="search_input.bgColor" value="ffffff" />
+        <border key="search_input.border" type="roundRect" strokeColor="16777215" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="3.0" shadowOpacity="20" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="search_input.dis#align" value="1" />
+        <val key="search_input.dis#bgColor" value="ffffff" />
+        <border key="search_input.dis#border" type="roundRect" strokeColor="16777215" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="3.0" shadowOpacity="20" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="search_input.dis#fgColor" value="0" />
+        <font key="search_input.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="search_input.dis#padUnit" value="2,2,2,2" />
+        <val key="search_input.dis#padding" value="3.0,3.0,3.0,3.0" />
+        <val key="search_input.dis#transparency" value="255" />
+        <val key="search_input.fgColor" value="0" />
+        <font key="search_input.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="search_input.padUnit" value="2,2,2,2" />
+        <val key="search_input.padding" value="3.0,3.0,3.0,3.0" />
+        <val key="search_input.press#align" value="1" />
+        <val key="search_input.press#bgColor" value="ffffff" />
+        <border key="search_input.press#border" type="roundRect" strokeColor="16777215" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="3.0" shadowOpacity="20" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="search_input.press#fgColor" value="0" />
+        <font key="search_input.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="search_input.press#padUnit" value="2,2,2,2" />
+        <val key="search_input.press#padding" value="3.0,3.0,3.0,3.0" />
+        <val key="search_input.press#transparency" value="255" />
+        <val key="search_input.sel#align" value="1" />
+        <val key="search_input.sel#bgColor" value="ffffff" />
+        <border key="search_input.sel#border" type="roundRect" strokeColor="16777215" strokeOpacity="255" strokeThickness="0.0" strokeMM="false" shadowSpread="3.0" shadowOpacity="20" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="2.0" bezierCorners="false" />
+        <val key="search_input.sel#fgColor" value="0" />
+        <font key="search_input.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="search_input.sel#padUnit" value="2,2,2,2" />
+        <val key="search_input.sel#padding" value="3.0,3.0,7.0,3.0" />
+        <val key="search_input.sel#transparency" value="255" />
+        <val key="search_input.transparency" value="255" />
+        <val key="terms_bold_green_btn.align" value="4" />
+        <val key="terms_bold_green_btn.bgColor" value="242e1c" />
+        <border key="terms_bold_green_btn.border" type="empty" />
+        <val key="terms_bold_green_btn.dis#align" value="4" />
+        <val key="terms_bold_green_btn.dis#bgColor" value="242e1c" />
+        <border key="terms_bold_green_btn.dis#border" type="empty" />
+        <val key="terms_bold_green_btn.dis#fgColor" value="ffffff" />
+        <font key="terms_bold_green_btn.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="terms_bold_green_btn.dis#marUnit" value="2,2,2,2" />
+        <val key="terms_bold_green_btn.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="terms_bold_green_btn.dis#transparency" value="250" />
+        <val key="terms_bold_green_btn.fgColor" value="ffffff" />
+        <font key="terms_bold_green_btn.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="terms_bold_green_btn.marUnit" value="2,2,2,2" />
+        <val key="terms_bold_green_btn.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="terms_bold_green_btn.press#align" value="4" />
+        <val key="terms_bold_green_btn.press#bgColor" value="242e1c" />
+        <border key="terms_bold_green_btn.press#border" type="empty" />
+        <val key="terms_bold_green_btn.press#fgColor" value="ffffff" />
+        <font key="terms_bold_green_btn.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="terms_bold_green_btn.press#marUnit" value="2,2,2,2" />
+        <val key="terms_bold_green_btn.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="terms_bold_green_btn.press#transparency" value="250" />
+        <val key="terms_bold_green_btn.sel#align" value="4" />
+        <val key="terms_bold_green_btn.sel#bgColor" value="242e1c" />
+        <border key="terms_bold_green_btn.sel#border" type="empty" />
+        <val key="terms_bold_green_btn.sel#fgColor" value="ffffff" />
+        <font key="terms_bold_green_btn.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="terms_bold_green_btn.sel#marUnit" value="2,2,2,2" />
+        <val key="terms_bold_green_btn.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="terms_bold_green_btn.sel#transparency" value="250" />
+        <val key="terms_bold_green_btn.transparency" value="250" />
+        <val key="terms_light_green_btn.align" value="4" />
+        <val key="terms_light_green_btn.bgColor" value="a5cd34" />
+        <border key="terms_light_green_btn.border" type="empty" />
+        <val key="terms_light_green_btn.dis#align" value="4" />
+        <val key="terms_light_green_btn.dis#bgColor" value="a5cd34" />
+        <border key="terms_light_green_btn.dis#border" type="empty" />
+        <val key="terms_light_green_btn.dis#fgColor" value="ffffff" />
+        <font key="terms_light_green_btn.dis#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="terms_light_green_btn.dis#marUnit" value="2,2,2,2" />
+        <val key="terms_light_green_btn.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="terms_light_green_btn.dis#transparency" value="250" />
+        <val key="terms_light_green_btn.fgColor" value="ffffff" />
+        <font key="terms_light_green_btn.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="terms_light_green_btn.marUnit" value="2,2,2,2" />
+        <val key="terms_light_green_btn.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="terms_light_green_btn.press#align" value="4" />
+        <val key="terms_light_green_btn.press#bgColor" value="a5cd34" />
+        <border key="terms_light_green_btn.press#border" type="empty" />
+        <val key="terms_light_green_btn.press#fgColor" value="ffffff" />
+        <font key="terms_light_green_btn.press#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="terms_light_green_btn.press#marUnit" value="2,2,2,2" />
+        <val key="terms_light_green_btn.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="terms_light_green_btn.press#transparency" value="250" />
+        <val key="terms_light_green_btn.sel#align" value="4" />
+        <val key="terms_light_green_btn.sel#bgColor" value="a5cd34" />
+        <border key="terms_light_green_btn.sel#border" type="empty" />
+        <val key="terms_light_green_btn.sel#fgColor" value="ffffff" />
+        <font key="terms_light_green_btn.sel#font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="terms_light_green_btn.sel#marUnit" value="2,2,2,2" />
+        <val key="terms_light_green_btn.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="terms_light_green_btn.sel#transparency" value="250" />
+        <val key="terms_light_green_btn.transparency" value="250" />
+        <val key="transperent.bgColor" value="ffffff" />
+        <border key="transperent.border" type="empty" />
+        <val key="transperent.fgColor" value="0" />
+        <val key="transperent.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="transperent.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="transperent.transparency" value="0" />
+        <val key="txt_black_center_small.align" value="4" />
+        <val key="txt_black_center_small.fgColor" value="1d2126" />
+        <font key="txt_black_center_small.font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="2.5" />
+        <val key="txt_black_center_small.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="txt_black_center_small.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="txt_left_yellow_ar.bgColor" value="ffffff" />
+        <border key="txt_left_yellow_ar.border" type="empty" />
+        <val key="txt_left_yellow_ar.fgColor" value="f7ed23" />
+        <font key="txt_left_yellow_ar.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.0" />
+        <val key="txt_left_yellow_ar.padUnit" value="2,2,2,0" />
+        <val key="txt_left_yellow_ar.padding" value="4.0,4.0,2.0,0.0" />
+        <val key="txt_left_yellow_ar.textDecoration" value="16" />
+        <val key="txt_left_yellow_ar.transparency" value="0" />
+        <val key="txt_white_center_small.align" value="4" />
+        <val key="txt_white_center_small.fgColor" value="ffffff" />
+        <font key="txt_white_center_small.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="txt_white_left_ar.fgColor" value="ffffff" />
+        <font key="txt_white_left_ar.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="under_line_btn.align" value="4" />
+        <val key="under_line_btn.bgColor" value="ffffff" />
+        <border key="under_line_btn.border" type="empty" />
+        <val key="under_line_btn.dis#align" value="4" />
+        <val key="under_line_btn.dis#bgColor" value="ffffff" />
+        <border key="under_line_btn.dis#border" type="empty" />
+        <val key="under_line_btn.dis#fgColor" value="242e1c" />
+        <font key="under_line_btn.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="4.5" />
+        <val key="under_line_btn.dis#textDecoration" value="1" />
+        <val key="under_line_btn.dis#transparency" value="0" />
+        <val key="under_line_btn.fgColor" value="242e1c" />
+        <font key="under_line_btn.font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="4.5" />
+        <val key="under_line_btn.press#align" value="4" />
+        <val key="under_line_btn.press#bgColor" value="ffffff" />
+        <border key="under_line_btn.press#border" type="empty" />
+        <val key="under_line_btn.press#fgColor" value="242e1c" />
+        <font key="under_line_btn.press#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="4.5" />
+        <val key="under_line_btn.press#textDecoration" value="1" />
+        <val key="under_line_btn.press#transparency" value="0" />
+        <val key="under_line_btn.sel#align" value="4" />
+        <val key="under_line_btn.sel#bgColor" value="ffffff" />
+        <border key="under_line_btn.sel#border" type="empty" />
+        <val key="under_line_btn.sel#fgColor" value="242e1c" />
+        <font key="under_line_btn.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainBold" family="native:MainBold" sizeSettings="3" actualSize="4.5" />
+        <val key="under_line_btn.sel#textDecoration" value="1" />
+        <val key="under_line_btn.sel#transparency" value="0" />
+        <val key="under_line_btn.textDecoration" value="1" />
+        <val key="under_line_btn.transparency" value="0" />
+        <val key="what_is_include.fgColor" value="5e9007" />
+        <font key="what_is_include.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="2.5" />
+        <val key="whatsapp_background.align" value="4" />
+        <val key="whatsapp_background.bgColor" value="232f3e" />
+        <val key="whatsapp_background.bgType" value="1" />
+        <val key="whatsapp_background.fgColor" value="ffffff" />
+        <font key="whatsapp_background.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="3.0" />
+        <val key="whatsapp_background.transparency" value="233" />
+        <val key="white.fgColor" value="ffffff" />
+    </theme>
+    <image name="unlock_ic.png"  />
+    <image name="user_black.png"  />
+    <image name="user_black_512_ic.png"  />
+    <image name="user_green_512_ic.png"  />
+    <image name="user_green_ic.png"  />
+    <image name="user_orange_512_ic.png"  />
+    <image name="user_orange_ic.png"  />
+    <image name="user_red_512_ic.png"  />
+    <image name="user_red_ic.png"  />
+    <image name="yellow_place.png"  />
+    <image name="yellow_point.png"  />
+</resource>

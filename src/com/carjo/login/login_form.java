@@ -25,7 +25,7 @@ public class login_form extends BaseLogin {
         installFixItems(res);
     }
 
-////////////////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
+////////////////////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
     protected com.codename1.ui.Container gui_Container = new com.codename1.ui.Container(new com.codename1.ui.layouts.LayeredLayout());
     protected com.codename1.ui.Label gui_bg_img = new com.codename1.ui.Label();
     protected com.codename1.ui.Label gui_bg_img_gray = new com.codename1.ui.Label();
@@ -87,7 +87,7 @@ public class login_form extends BaseLogin {
                 setInlineStylesTheme(resourceObjectInstance);
         setTitle("login_form");
         setName("login_form");
-        gui_Container.setPreferredSizeStr("inherit 116.666664mm");
+        gui_Container.setPreferredSizeStr("inherit 132.53969mm");
                 gui_Container.setInlineStylesTheme(resourceObjectInstance);
         gui_Container.setName("Container");
         addComponent(gui_Container);
@@ -176,22 +176,23 @@ public class login_form extends BaseLogin {
         ((com.codename1.ui.layouts.LayeredLayout)gui_Container_1.getLayout()).setPreferredWidthMM((float)58.46561);
         ((com.codename1.ui.layouts.LayeredLayout)gui_Container_1.getLayout()).setPreferredHeightMM((float)100.5291);
         ((com.codename1.ui.layouts.LayeredLayout)gui_Container_1.getParent().getLayout()).setInsets(gui_Container_1, "2.0mm 2.6455026mm 0.0mm 3.7037039mm").setReferenceComponents(gui_Container_1, "2 -1 -1 -1").setReferencePositions(gui_Container_1, "1.0 0.0 0.0 0.0");
-        ((com.codename1.ui.layouts.LayeredLayout)gui_Container.getLayout()).setPreferredWidthMM((float)69.04762);
-        ((com.codename1.ui.layouts.LayeredLayout)gui_Container.getLayout()).setPreferredHeightMM((float)116.666664);
-        ((com.codename1.ui.layouts.LayeredLayout)gui_Container.getParent().getLayout()).setInsets(gui_Container, "0.0mm 0.0mm auto 0.0mm").setReferenceComponents(gui_Container, "-1 -1 -1 -1").setReferencePositions(gui_Container, "0.0 0.0 0.0 0.0");
+        ((com.codename1.ui.layouts.LayeredLayout)gui_Container.getLayout()).setPreferredWidthMM((float)80.15873);
+        ((com.codename1.ui.layouts.LayeredLayout)gui_Container.getLayout()).setPreferredHeightMM((float)132.53969);
+        ((com.codename1.ui.layouts.LayeredLayout)gui_Container.getParent().getLayout()).setInsets(gui_Container, "0.0mm 0.0mm 0.0mm 0.0mm").setReferenceComponents(gui_Container, "-1 -1 -1 -1").setReferencePositions(gui_Container, "0.0 0.0 0.0 0.0");
     }// </editor-fold>
 
 //-- DON'T EDIT ABOVE THIS LINE!!!  //-- DON'T EDIT ABOVE THIS LINE!!! 
+
     private void installFixItems(Resources res) {
-        getToolbar().setHidden(true);
-        setScrollVisible(false);
-        gui_lbl_logo.setPreferredH(gui_lbl_logo.getPreferredW());
-        user = createTextField("Username or Phone", res.getImage("mail_ic.png").scaled(56, 56));
-        pass = createTextField("Password", res.getImage("lock_ic.png").scaled(56, 56));
-        pass.setConstraint(TextField.PASSWORD);
-        gui_con_user.add(CENTER, user);
-        gui_con_pass.add(CENTER, pass);
-        gui_Container.setPreferredH(cn1Display.getHeight());
+//        getToolbar().setHidden(true);
+//        setScrollVisible(false);
+//        gui_lbl_logo.setPreferredH(gui_lbl_logo.getPreferredW());
+//        user = createTextField("Username or Phone", res.getImage("mail_ic.png").scaled(56, 56));
+//        pass = createTextField("Password", res.getImage("lock_ic.png").scaled(56, 56));
+//        pass.setConstraint(TextField.PASSWORD);
+//        gui_con_user.add(CENTER, user);
+//        gui_con_pass.add(CENTER, pass);
+//        gui_Container.setPreferredH(cn1Display.getHeight());
     }
 
     public TextField createTextField(String hint, Image hint_icon) {
@@ -209,30 +210,30 @@ public class login_form extends BaseLogin {
 //        Display.getInstance().execute("https://openskyjo.github.io/Terms-Conditions/");
 //    }
     public void onbtn_loginActionEvent(com.codename1.ui.events.ActionEvent ev) {
-        String userStr = formatUser(user.getText().toLowerCase());
-        String passStr = pass.getText();
-        if (StringUtil.replaceAll(userStr, " ", "").length() == 0 && passStr.length() == 0) {
-            ToastBar.showInfoMessage("Please enter username/phone and password");
-        } else if (StringUtil.replaceAll(userStr, " ", "").length() == 0 && passStr.length() != 0) {
-            ToastBar.showInfoMessage("Please enter username/phone");
-        } else if (StringUtil.replaceAll(userStr, " ", "").length() != 0 && passStr.length() == 0) {
-            ToastBar.showInfoMessage("Please enter password");
-        } else {
-            if (userStr.endsWith("_yalla")) {
-                checkGymLogin(res, userStr, passStr);
-            } else {
-                checkUserLogin(res, userStr, passStr);
-
-            }
-        }
+//        String userStr = formatUser(user.getText().toLowerCase());
+//        String passStr = pass.getText();
+//        if (StringUtil.replaceAll(userStr, " ", "").length() == 0 && passStr.length() == 0) {
+//            ToastBar.showInfoMessage("Please enter username/phone and password");
+//        } else if (StringUtil.replaceAll(userStr, " ", "").length() == 0 && passStr.length() != 0) {
+//            ToastBar.showInfoMessage("Please enter username/phone");
+//        } else if (StringUtil.replaceAll(userStr, " ", "").length() != 0 && passStr.length() == 0) {
+//            ToastBar.showInfoMessage("Please enter password");
+//        } else {
+//            if (userStr.endsWith("_yalla")) {
+//                checkGymLogin(res, userStr, passStr);
+//            } else {
+//                checkUserLogin(res, userStr, passStr);
+//
+//            }
+//        }
     }
 
     public void onbtn_sign_upActionEvent(com.codename1.ui.events.ActionEvent ev) {
-        new signup_username(res, this).show();
+//        new signup_username(res, this).show();
     }
 
     public void onbtn_forget_passActionEvent(com.codename1.ui.events.ActionEvent ev) {
-        new activition_form_1(res, this, formatUser(user.getText())).show();
+//        new activition_form_1(res, this, formatUser(user.getText())).show();
     }
 
    

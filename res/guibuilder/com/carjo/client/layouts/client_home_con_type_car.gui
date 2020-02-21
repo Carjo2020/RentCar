@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" name="client_home_con_type_car">
-  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="40.21164" layeredLayoutPreferredHeightMM="20.37037"  preferredSize="40.21164mm 33.862434mm" name="Container">
-    <layoutConstraint insets="0.0mm 0.0mm 0.0mm 22.44898%" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
-  </component>
-  <component type="Button" text="" preferredSize="8.465609mm inherit" name="Button">
-    <layoutConstraint insets="auto auto auto 2.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="50.0" layeredLayoutPreferredHeightMM="9.259259"  preferredSize="50.0mm 8.994709mm" name="Container_1">
+    <layoutConstraint insets="auto auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="89.41799" layeredLayoutPreferredHeightMM="9.78836"  styles="bgImage:null;" preferredSize="66.93122mm 9.78836mm" name="Container">
+      <layoutConstraint insets="auto 0.0mm auto 7.936508mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      <component type="Label" text="" styles="bgImage:ic_coupe.png;" preferredSize="10.58201mm 9.78836mm" name="img">
+        <layoutConstraint insets="auto 0.0mm auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+      </component>
+      <component type="Label" uiid="PersonalInfo_Lbl_AR" text="Compact" preferredSize="27.248678mm 7.4074073mm" name="lbl_type">
+        <layoutConstraint insets="auto 0.0mm auto -4.7683716E-7mm" referenceComponents="-1 0 -1 -1" referencePositions="0.0 1.0 0.0 0.0" />
+      </component>
+    </component>
+    <component type="Button" uiid="transperent" preferredSize="53.968254mm 15.079365mm" name="btn_select">
+      <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
+    <component type="Label" text="" preferredSize="10.05291mm 8.994709mm" name="lbl_check">
+      <layoutConstraint insets="0.0mm auto auto -5.9604645E-8mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+    </component>
   </component>
 </component>

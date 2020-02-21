@@ -15,6 +15,7 @@ import com.codename1.ui.Command;
 import com.codename1.ui.Component;
 import static com.codename1.ui.Component.CENTER;
 import com.codename1.ui.Container;
+import com.codename1.ui.Dialog;
 import com.codename1.ui.Display;
 import com.codename1.ui.FontImage;
 import com.codename1.ui.Form;
@@ -24,6 +25,7 @@ import com.codename1.ui.TextField;
 import com.codename1.ui.events.ActionEvent;
 import com.codename1.ui.events.ActionListener;
 import com.codename1.ui.layouts.BorderLayout;
+import com.codename1.ui.layouts.BoxLayout;
 import com.codename1.ui.layouts.FlowLayout;
 import com.codename1.ui.util.Resources;
 import java.io.IOException;
@@ -80,10 +82,16 @@ public class cBaseForm extends Form {
 //        System.out.println("cn1Display.getHeight()/9:" + cn1Display.getHeight() / 9);
         getToolbar().setPreferredH(Math.max(150, cn1Display.getHeight() / 9));
         this.getToolbar().add(CENTER, new logo(res));
-        Label l=new Label();
-        l.setPreferredH(50);
-         l.setPreferredW(100);
-         this.getToolbar().add(RIGHT, l);
+        Button help = new Button();
+        help.getAllStyles().setBgImage(new cn1Icons().getImage("help outline", "TitleCommand", 6));
+        help.setPreferredH(50);
+        help.setPreferredW(100);
+        help.addActionListener(e -> {
+            Dialog d = new Dialog();
+            d.setLayout(BoxLayout.y());
+            d.showPopupDialog(help);
+        });
+        this.getToolbar().add(RIGHT, help);
     }
 
     public void installBackIcon(Form backform) {
@@ -129,15 +137,15 @@ public class cBaseForm extends Form {
     }
 
     public void installSideMenu(Resources res, Form frm) {
-       Label l = new Label("");
-       l.setIcon(res.getImage("greet.png"));
+        Label l = new Label("");
+        l.setIcon(res.getImage("greet.png"));
         l.setPreferredH(cn1Display.getScaledMax(10));
         l.setPreferredW(250);
         this.getToolbar().addComponentToLeftSideMenu(FlowLayout.encloseCenter(l));
         this.getToolbar().addCommandToLeftSideMenu("   Cars", new cn1Icons().getImage("directions car", "SideCommand", 6), e -> {
             new client_home(res).show();
         });
-        this.getToolbar().addComponentToLeftSideMenu(createDivider());
+        this.getToolbar().addComponentToLeftSideMenu(createDivider(0xececec));
         this.getToolbar().addCommandToLeftSideMenu("   Favorites", new cn1Icons().getImage("favorite", "SideCommand", 6), e -> {
 //            if (cerruntForm != null) {
 //                cerruntForm.show();
@@ -149,22 +157,22 @@ public class cBaseForm extends Form {
 //            }
 //            new map_form(res, new list_form(res)).show();
         });
-        this.getToolbar().addComponentToLeftSideMenu(createDivider());
+        this.getToolbar().addComponentToLeftSideMenu(createDivider(0xececec));
         this.getToolbar().addCommandToLeftSideMenu("   Orders", new cn1Icons().getImage("business center", "SideCommand", 6), e -> {
 //            new user_orders(res, frm).show();
 //            new client_orders(res, frm).show();
         });
-        this.getToolbar().addComponentToLeftSideMenu(createDivider());
+        this.getToolbar().addComponentToLeftSideMenu(createDivider(0xececec));
         this.getToolbar().addCommandToLeftSideMenu("   Personal Information", new cn1Icons().getImage("person", "SideCommand", 6), e -> {
 //            new user_info(res, frm).show();
         });
 
-        this.getToolbar().addComponentToLeftSideMenu(createDivider());
+        this.getToolbar().addComponentToLeftSideMenu(createDivider(0xececec));
         this.getToolbar().addCommandToLeftSideMenu("   Logout", new cn1Icons().getImage("exit to app", "SideCommand", 6), e -> {
             Preferences.clearAll();
             new login_form(res).show();
         });
-        this.getToolbar().addComponentToLeftSideMenu(createDivider());
+        this.getToolbar().addComponentToLeftSideMenu(createDivider(0xececec));
 
         Image img = FontImage.createMaterial(FontImage.MATERIAL_MENU, "transperent", 5);
     }
@@ -186,13 +194,14 @@ public class cBaseForm extends Form {
         return new Coord(lat, lng);
     }
 
-    private Label createDivider() {
+    public Label createDivider(int color) {
         Label divider = new Label("", "dividerSideMenu");
         divider.setPreferredH(10);
         divider.setPreferredW(cn1Display.getWidth());
-        divider.getAllStyles().setBgColor(0xececec);
+        divider.getAllStyles().setBgColor(color);
         return divider;
     }
+
 
 //    private void facebookLogout(Resources res) {
 //        String clientId = "477873012799140";
@@ -207,6 +216,7 @@ public class cBaseForm extends Form {
 //        Preferences.set("token", "");
 //        new Login(res).show();
 //    }
+
     public TextField createSearchBar(Resources res, Container con_search) {
         TextField search = new TextField("", "  Search Here...");
         search.setUIID("Activation_Input");

@@ -6,8 +6,8 @@
     <component type="Label" uiid="PersonalInfo_Lbl" text="Type" styles="fgColor:0; alignment:left;" preferredSize="11.238481mm 5.3944707mm" name="Label">
       <layoutConstraint insets="0.0mm auto 50.0% 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
     </component>
-    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="45.740616" layeredLayoutPreferredHeightMM="7.4173975"  preferredSize="45.740616mm 7.4173975mm" name="con_brand">
-      <layoutConstraint insets="0.0mm 0.0mm 50.0% 0.0mm" referenceComponents="0 3 -1 0 " referencePositions="0.0 1.0 0.0 1.0" />
+    <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="34.126984" layeredLayoutPreferredHeightMM="6.6137567"  preferredSize="45.740616mm 6.6137567mm" name="con_brand">
+      <layoutConstraint insets="0.5mm 0.0mm 53.508774% 0.0mm" referenceComponents="0 3 -1 0 " referencePositions="0.0 1.0 0.0 1.0" />
       <component type="Button" uiid="CheckBoxTypesCar" text="Enter Car Types" preferredSize="38.095238mm 7.142857mm" icon="fontImage:e313" name="Button">
         <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
       </component>
@@ -30,13 +30,13 @@
     <component type="Label" text="14 days" styles="alignment:right;" preferredSize="13.756614mm 7.4074073mm" name="lbl_no_days">
       <layoutConstraint insets="0.0mm 0.0mm 0.0mm auto" referenceComponents="3 6 -1 -1" referencePositions="1.0 1.0 0.0 0.0" />
     </component>
-    <component type="Button" text="" preferredSize="9.78836mm 6.3492064mm" icon="fontImage:e3c9" name="btn_edit_peroid">
+    <component type="Button" preferredSize="9.78836mm 6.3492064mm" icon="fontImage:e3c9" name="btn_edit_peroid">
       <layoutConstraint insets="-1.1920929E-7mm -4.7683716E-7mm 0.0mm auto" referenceComponents="3 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
     </component>
   </component>
   <component type="Container" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  name="Container_1">
     <layoutConstraint insets="0.0mm 0.0mm 0.0mm 0.0mm" referenceComponents="0 -1 -1 -1" referencePositions="1.0 0.0 0.0 0.0" />
-    <component type="Container" layout="BoxLayout" boxLayoutAxis="X"  uiid="Container" styles="border:1.0px solid febd69;" preferredSize="59.002026mm 27.513227mm" name="con_horzintal">
+    <component type="Container" layout="BoxLayout" boxLayoutAxis="X"  styles="border:1.0px solid febd69;" preferredSize="59.002026mm 27.513227mm" name="con_horzintal">
       <layoutConstraint insets="1.5mm 0.0mm auto -0.2mm" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
     </component>
     <component type="Container" layout="BoxLayout" boxLayoutAxis="Y"  preferredSize="51.921783mm 70.12812mm" name="con_vertical">

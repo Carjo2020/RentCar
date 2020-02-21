@@ -1,11 +1,12 @@
 package com.carjo.client.forms;
 
 import com.carjo.client.layouts.client_home_con_horzintal;
-import com.codename1.components.MultiButton;
-import com.codename1.ui.CheckBox;
+import com.carjo.client.layouts.client_home_con_type_car;
+import com.carjo.client.layouts.client_home_con_type_car_controller;
 import com.codename1.ui.ComboBox;
+import com.codename1.ui.Container;
 import com.codename1.ui.Dialog;
-import com.codename1.ui.events.ActionListener;
+import com.codename1.ui.Form;
 import com.codename1.ui.layouts.BoxLayout;
 import com.codename1.ui.util.Resources;
 
@@ -26,7 +27,7 @@ public class client_home extends cBaseForm {
         installContainer();
     }
 
-//////////////////////-- DON'T EDIT BELOW THIS LINE!!!
+//////////////////////////////////////////////-- DON'T EDIT BELOW THIS LINE!!!
     protected com.codename1.ui.Container gui_Container = new com.codename1.ui.Container(new com.codename1.ui.layouts.LayeredLayout());
     protected com.codename1.ui.Label gui_Label = new com.codename1.ui.Label();
     protected com.codename1.ui.Container gui_con_brand = new com.codename1.ui.Container(new com.codename1.ui.layouts.LayeredLayout());
@@ -64,7 +65,7 @@ public class client_home extends cBaseForm {
                 gui_Label.setInlineStylesTheme(resourceObjectInstance);
         gui_Label.setInlineAllStyles("fgColor:0; alignment:left;");
         gui_Label.setName("Label");
-        gui_con_brand.setPreferredSizeStr("45.740616mm 7.4173975mm");
+        gui_con_brand.setPreferredSizeStr("45.740616mm 6.6137567mm");
                 gui_con_brand.setInlineStylesTheme(resourceObjectInstance);
         gui_con_brand.setName("con_brand");
         gui_Label_1.setPreferredSizeStr("10.901326mm 7.4173975mm");
@@ -87,7 +88,6 @@ public class client_home extends cBaseForm {
         gui_lbl_no_days.setInlineAllStyles("alignment:right;");
         gui_lbl_no_days.setName("lbl_no_days");
         gui_btn_edit_peroid.setPreferredSizeStr("9.78836mm 6.3492064mm");
-        gui_btn_edit_peroid.setText("");
                 gui_btn_edit_peroid.setInlineStylesTheme(resourceObjectInstance);
         gui_btn_edit_peroid.setName("btn_edit_peroid");
         com.codename1.ui.FontImage.setMaterialIcon(gui_btn_edit_peroid,"\ue3c9".charAt(0));
@@ -121,9 +121,9 @@ public class client_home extends cBaseForm {
         gui_Container.addComponent(gui_lbl_no_days);
         gui_Container.addComponent(gui_btn_edit_peroid);
         ((com.codename1.ui.layouts.LayeredLayout)gui_Label.getParent().getLayout()).setInsets(gui_Label, "0.0mm auto 50.0% 0.0mm").setReferenceComponents(gui_Label, "-1 -1 -1 -1").setReferencePositions(gui_Label, "0.0 0.0 0.0 0.0");
-        ((com.codename1.ui.layouts.LayeredLayout)gui_con_brand.getLayout()).setPreferredWidthMM((float)45.740616);
-        ((com.codename1.ui.layouts.LayeredLayout)gui_con_brand.getLayout()).setPreferredHeightMM((float)7.4173975);
-        ((com.codename1.ui.layouts.LayeredLayout)gui_con_brand.getParent().getLayout()).setInsets(gui_con_brand, "0.0mm 0.0mm 50.0% 0.0mm").setReferenceComponents(gui_con_brand, "0 3 -1 0 ").setReferencePositions(gui_con_brand, "0.0 1.0 0.0 1.0");
+        ((com.codename1.ui.layouts.LayeredLayout)gui_con_brand.getLayout()).setPreferredWidthMM((float)34.126984);
+        ((com.codename1.ui.layouts.LayeredLayout)gui_con_brand.getLayout()).setPreferredHeightMM((float)6.6137567);
+        ((com.codename1.ui.layouts.LayeredLayout)gui_con_brand.getParent().getLayout()).setInsets(gui_con_brand, "0.5mm 0.0mm 53.508774% 0.0mm").setReferenceComponents(gui_con_brand, "0 3 -1 0 ").setReferencePositions(gui_con_brand, "0.0 1.0 0.0 1.0");
         ((com.codename1.ui.layouts.LayeredLayout)gui_Label_1.getParent().getLayout()).setInsets(gui_Label_1, "0.0mm auto 0.0mm 0.3371544mm").setReferenceComponents(gui_Label_1, "0 -1 -1 -1").setReferencePositions(gui_Label_1, "1.0 0.0 0.0 0.0");
         ((com.codename1.ui.layouts.LayeredLayout)gui_btn_search.getParent().getLayout()).setInsets(gui_btn_search, "0.0mm 0.0mm 50.0% auto").setReferenceComponents(gui_btn_search, "-1 -1 -1 -1").setReferencePositions(gui_btn_search, "0.0 0.0 0.0 0.0");
         ((com.codename1.ui.layouts.LayeredLayout)gui_Container_2.getLayout()).setPreferredWidthMM((float)30.68783);
@@ -133,7 +133,6 @@ public class client_home extends cBaseForm {
         ((com.codename1.ui.layouts.LayeredLayout)gui_btn_edit_peroid.getParent().getLayout()).setInsets(gui_btn_edit_peroid, "-1.1920929E-7mm -4.7683716E-7mm 0.0mm auto").setReferenceComponents(gui_btn_edit_peroid, "3 -1 -1 -1").setReferencePositions(gui_btn_edit_peroid, "1.0 0.0 0.0 0.0");
         addComponent(gui_Container_1);
         gui_con_horzintal.setPreferredSizeStr("59.002026mm 27.513227mm");
-        gui_con_horzintal.setUIID("Container");
                 gui_con_horzintal.setInlineStylesTheme(resourceObjectInstance);
         gui_con_horzintal.setInlineAllStyles("border:1.0px solid febd69;");
         gui_con_horzintal.setName("con_horzintal");
@@ -156,26 +155,38 @@ public class client_home extends cBaseForm {
         ComboBox box = new ComboBox();
         box.addItem("h");
 //        ActionListener a=null;
-        gui_Button.addActionListener(e->{
-Dialog d = new Dialog();
-    d.setLayout(BoxLayout.y());
-    d.getContentPane().setScrollableY(true);
-    for(int iter = 0 ; iter <5 ; iter++) {
-//        MultiButton mb = new MultiButton(characters[iter]);
-//        mb.setTextLine2(actors[iter]);
-//        mb.setIcon(pictures[iter]);
-        d.add("");
-//        mb.addActionListener(ee -> {
-//            b.setTextLine1(mb.getTextLine1());
-//            b.setTextLine2(mb.getTextLine2());
-//            b.setIcon(mb.getIcon());
-//            d.dispose();
-//            b.revalidate();
-//        });
-    }
-    d.showPopupDialog(gui_Button);
-    });
-//        box.
+        gui_Button.addActionListener(e -> {
+            Dialog d = new Dialog();
+            d.setLayout(BoxLayout.y());
+//            d.getContentPane().setScrollableY(false);
+            d.add(new client_home_con_type_car(res, "All Cars", client_home_con_type_car_controller.all));
+            d.add(createDivider(0xfebd69));
+            d.add(new client_home_con_type_car(res, "Sedan", client_home_con_type_car_controller.sedan));
+            d.add(new client_home_con_type_car(res, "Coupe", client_home_con_type_car_controller.coupe));
+            d.add(new client_home_con_type_car(res, "Convertible", client_home_con_type_car_controller.convertible));
+            d.add(new client_home_con_type_car(res, "suv", client_home_con_type_car_controller.suv));
+            d.add(new client_home_con_type_car(res, "hatchback", client_home_con_type_car_controller.hatchback));
+            d.add(new client_home_con_type_car(res, "van", client_home_con_type_car_controller.van));
+//            d.setScrollVisible(false);
+//            d.getContentPane().setScrollVisible(false);
+//            Container con = (Container) d.getComponentAt(0);
+//            con.setScrollVisible(false);
+//            Container con1 = (Container) d.getComponentAt(1);
+//            con1.setScrollVisible(false);
+//            Container con2 = (Container) d.getContentPane();
+//            con2.setScrollVisible(false);
+//            Container con3 = (Container) d.getContentPane().getComponentAt(0);
+//            con3.setScrollVisible(false);
+//            Form form = (Form) d.getComponentForm();
+//            form.setScrollVisible(false);
+//            System.out.println("d.getComponentAt(0).getUIID():" + d.getComponentAt(0).getUIID());
+//            System.out.println("d.getComponentAt(1).getUIID():" + d.getComponentAt(1).getUIID());
+//            System.out.println("d.getComponentForm()" + d.getComponentForm().getComponentCount());
+//            System.out.println("d.getContentPane()" + d.getContentPane().getComponentCount());
+//            d.getDialogComponent().setScrollVisible(false);
+
+            d.showPopupDialog(gui_Button);
+        });
         gui_con_horzintal.setScrollableX(true);
         gui_con_horzintal.setScrollableY(false);
         gui_con_horzintal.setScrollVisible(false);

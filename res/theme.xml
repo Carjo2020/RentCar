@@ -34,8 +34,16 @@
     <image name="hours.png"  />
     <image name="hours_white.png"  />
     <image name="ic_card.png"  />
+    <image name="ic_convertible.png"  />
+    <image name="ic_coupe.png"  />
     <image name="ic_datePiker.png"  />
     <image name="ic_fab.png"  />
+    <image name="ic_hatchback.png"  />
+    <image name="ic_personal.png"  />
+    <image name="ic_sedan.png"  />
+    <image name="ic_smile.png"  />
+    <image name="ic_suv.png"  />
+    <image name="ic_van.png"  />
     <image name="in_proccess_order_ic.png"  />
     <image name="in_proccess_order_orange_ic.png"  />
     <image name="lock_ic.png"  />
@@ -661,7 +669,7 @@
         <val key="SideCommand.sel#transparency" value="255" />
         <val key="SideCommand.textDecoration" value="16" />
         <val key="SideCommand.transparency" value="255" />
-        <val key="SideNavigationPanel.bgColor" value="021522" />
+        <val key="SideNavigationPanel.bgColor" value="f6fbf2" />
         <val key="Splash_Txt.align" value="4" />
         <val key="Splash_Txt.fgColor" value="ffffff" />
         <font key="Splash_Txt.font" type="ttf" face="0" style="0" size="0" name="29LT Bukra.ttf" family="29LTBukra-BoldItalic" sizeSettings="3" actualSize="5.0" />
@@ -1374,6 +1382,8 @@
         <border key="datePicker.sel#border" type="line" millimeters="false" thickness="1.0" color="4216609" />
         <val key="datePicker.sel#fgColor" value="405721" />
         <font key="datePicker.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="dividerSideMenu.bgColor" value="febd69" />
+        <val key="dividerSideMenu.transparency" value="255" />
         <val key="fab.align" value="4" />
         <val key="fab.bgImage" value="ic_fab.png" />
         <val key="fab.bgType" value="1" />
